@@ -17,6 +17,42 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
         cursorFollower = FindObjectOfType<UICursorFollower>();
     }
 
+    void Update()
+    {
+        // Loop through number keys (1–9, you can extend for 0 if needed)
+        for (int i = 1; i <= 9; i++)
+        {
+            if (Input.GetKeyDown(i.ToString())) // checks "1","2","3",...
+            {
+                SelectByHierarchyIndex(i);
+            }
+        }
+    }
+
+    private void SelectByHierarchyIndex(int hierarchyIndex)
+    {
+        UI_SelectableItem[] allItems = FindObjectsOfType<UI_SelectableItem>();
+
+        foreach (var item in allItems)
+        {
+            if (item.hierarchyIndex == hierarchyIndex)
+            {
+                if (item.currentQuantity > 0) // only allow selection if available
+                {
+                    SelectItem(item.itemIndex);
+                    item.SelectAnimation(); // Play selection animation
+                }
+                else
+                {
+                    // If no quantity left and it’s selected, deselect it
+                    if (selectedItemIndex == item.itemIndex)
+                        DeselectItem();
+                }
+                return;
+            }
+        }
+    }
+
     public void SelectItem(int index)
     {
         selectedItemIndex = index;
@@ -60,7 +96,6 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
         if (selectedItemIndex < 0) return;
         if (targetPanel == null) return;
 
-        // Check click inside target panel
         if (!RectTransformUtility.RectangleContainsScreenPoint(targetPanel, eventData.position, eventData.pressEventCamera))
             return;
 
@@ -69,23 +104,19 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(targetPanel, eventData.position, cam, out worldPos))
         {
-            // Try to find the selectable item that matches the selected index
             UI_SelectableItem[] allItems = FindObjectsOfType<UI_SelectableItem>();
             foreach (var item in allItems)
             {
                 if (item.itemIndex == selectedItemIndex)
                 {
-                    if (item.currentQuantity > 0) // Only instantiate if available
+                    if (item.currentQuantity > 0)
                     {
                         Instantiate(instantiableObjects[selectedItemIndex], worldPos, Quaternion.identity);
-                        item.UseItem(1); // reduce quantity and update UI
+                        item.UseItem(1);
                     }
                     return;
                 }
             }
         }
     }
-
-
-
 }

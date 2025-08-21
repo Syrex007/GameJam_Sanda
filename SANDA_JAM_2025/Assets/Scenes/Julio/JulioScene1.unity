@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 46169179}
   - component: {fileID: 46169178}
   m_Layer: 5
-  m_Name: TextIndex
+  m_Name: TextHierarchy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,10 +527,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9df5d899788aa54408708dfd71f5f5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hierarchyIndex: 0
   itemIndex: 1
   startQuantity: 3
   currentQuantity: 0
-  indexText: {fileID: 46169178}
+  hierarchyText: {fileID: 46169178}
   quantityText: {fileID: 2094332587}
 --- !u!1 &73758167
 GameObject:
@@ -2363,7 +2364,7 @@ GameObject:
   - component: {fileID: 962267046}
   - component: {fileID: 962267045}
   m_Layer: 5
-  m_Name: TextIndex
+  m_Name: TextHierarchy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2793,10 +2794,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9df5d899788aa54408708dfd71f5f5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hierarchyIndex: 0
   itemIndex: 0
   startQuantity: 2
   currentQuantity: 0
-  indexText: {fileID: 962267045}
+  hierarchyText: {fileID: 962267045}
   quantityText: {fileID: 73758170}
 --- !u!114 &1294008422
 MonoBehaviour:

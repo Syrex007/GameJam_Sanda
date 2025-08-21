@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using TMPro; // <- if you use TextMeshPro
+using TMPro; 
 
 public class UI_SelectableItem : MonoBehaviour, IPointerClickHandler
 {
+    [HideInInspector] public int hierarchyIndex; 
     [SerializeField] public int itemIndex;
 
     private UI_ItemManager itemManager;
@@ -14,7 +15,7 @@ public class UI_SelectableItem : MonoBehaviour, IPointerClickHandler
     [SerializeField] public int currentQuantity;
 
     [Header("UI References")]
-    [SerializeField] private TMP_Text indexText;     // Show the item index
+    [SerializeField] private TMP_Text hierarchyText;     // Show the item index
     [SerializeField] private TMP_Text quantityText;  // Show the quantity left
 
     void Start()
@@ -49,7 +50,14 @@ public class UI_SelectableItem : MonoBehaviour, IPointerClickHandler
             {
                 itemManager.SelectItem(itemIndex);
 
-                effects.PlayPop(
+                SelectAnimation();
+            }
+        }
+    }
+
+    public void SelectAnimation()
+    {
+        effects.PlayPop(
                     startScale: Vector3.one * 0.9f,
                     popScale: Vector3.one * 1.2f,
                     endScale: Vector3.one,
@@ -57,11 +65,8 @@ public class UI_SelectableItem : MonoBehaviour, IPointerClickHandler
                     popRatio: 0.4f,
                     popEase: DG.Tweening.Ease.OutBack,
                     settleEase: DG.Tweening.Ease.OutQuad
-                );
-            }
-        }
+        );
     }
-
     public void UseItem(int amount = 1)
     {
         currentQuantity -= amount;
@@ -77,10 +82,15 @@ public class UI_SelectableItem : MonoBehaviour, IPointerClickHandler
 
     private void UpdateUI()
     {
-        if (indexText != null)
-            indexText.text = $"{itemIndex+1}";
+        if (hierarchyText != null)
+            hierarchyText.text = $"{transform.GetSiblingIndex() + 1}";
 
         if (quantityText != null)
             quantityText.text = $"x{currentQuantity}";
+    }
+    private void Update()
+    {
+        hierarchyIndex = transform.GetSiblingIndex() + 1;
+        UpdateUI();
     }
 }
