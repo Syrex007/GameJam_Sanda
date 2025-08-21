@@ -1,44 +1,46 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems; // Needed for IPointerClickHandler
-using DG.Tweening;             // If you want to call Ease directly
+using UnityEngine.EventSystems;
 
 public class UI_SelectableItem : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] public int itemIndex;
-    [SerializeField] public GameObject instantiableObject;
-    [SerializeField] public int initialQuantity;
-    [SerializeField] public int currentQuantity;
-
-    private Image image;
+    private UI_ItemManager itemManager;
     private UI_TweenEffects effects;
 
     void Start()
     {
-        image = GetComponent<Image>();
+        itemManager = FindObjectOfType<UI_ItemManager>();
         effects = GetComponent<UI_TweenEffects>();
     }
 
-    // Called automatically when the UI element is clicked
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (eventData.button == PointerEventData.InputButton.Left)
-        {
-            OnSelect();
-        }
-    }
+        if (eventData.button != PointerEventData.InputButton.Left) return;
 
-    private void OnSelect()
-    {
-        // Example pop animation when selected
-        effects.PlayPop(
-            startScale: Vector3.one * 0.9f,    // slightly smaller to emphasize growth
-            popScale: Vector3.one * 1.2f,      // overshoot
-            endScale: Vector3.one,             // settle to normal
-            duration: 0.4f,
-            popRatio: 0.4f,
-            popEase: Ease.OutBack,
-            settleEase: Ease.OutQuad
-        );
+        if (itemManager != null)
+        {
+            if (itemIndex == itemManager.selectedItemIndex)
+            {
+                //Si clicamos el mismo item deseleccionamos
+                itemManager.DeselectItem();
+            }
+            else
+            {
+                //Seleccionar este item
+                itemManager.SelectItem(itemIndex);
+
+                //Animacin de feedback visual
+                effects.PlayPop(
+                    startScale: Vector3.one * 0.9f,
+                    popScale: Vector3.one * 1.2f,
+                    endScale: Vector3.one,
+                    duration: 0.4f,
+                    popRatio: 0.4f,
+                    popEase: DG.Tweening.Ease.OutBack,
+                    settleEase: DG.Tweening.Ease.OutQuad
+                );
+            }
+        }
     }
 }

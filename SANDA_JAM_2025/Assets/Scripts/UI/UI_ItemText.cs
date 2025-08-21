@@ -1,16 +1,19 @@
+using TMPro;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class UI_ItemText : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private TMP_Text itemText;
+    private UI_SelectableItem item;
     void Start()
     {
-        
+        itemText = GetComponent<TMP_Text>();
+        item = GetComponentInParent<UI_SelectableItem>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        itemText.text =  (item.itemIndex +1).ToString();
     }
 }
