@@ -60,6 +60,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
         if (selectedItemIndex < 0) return;
         if (targetPanel == null) return;
 
+        // Check click inside target panel
         if (!RectTransformUtility.RectangleContainsScreenPoint(targetPanel, eventData.position, eventData.pressEventCamera))
             return;
 
@@ -68,9 +69,23 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
         if (RectTransformUtility.ScreenPointToWorldPointInRectangle(targetPanel, eventData.position, cam, out worldPos))
         {
-            Instantiate(instantiableObjects[selectedItemIndex], worldPos, Quaternion.identity);
+            // Try to find the selectable item that matches the selected index
+            UI_SelectableItem[] allItems = FindObjectsOfType<UI_SelectableItem>();
+            foreach (var item in allItems)
+            {
+                if (item.itemIndex == selectedItemIndex)
+                {
+                    if (item.currentQuantity > 0) // Only instantiate if available
+                    {
+                        Instantiate(instantiableObjects[selectedItemIndex], worldPos, Quaternion.identity);
+                        item.UseItem(1); // reduce quantity and update UI
+                    }
+                    return;
+                }
+            }
         }
     }
+
 
 
 }
