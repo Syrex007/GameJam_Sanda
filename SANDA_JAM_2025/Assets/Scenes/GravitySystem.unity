@@ -2347,6 +2347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7173114406962571276, guid: 78eb0df7db9a7b24e8e5a67c24354654, type: 3}
+      propertyPath: destroyTimer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2360,6 +2364,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2934692714616671163, guid: 534934434949d8c42b121699ba61f394, type: 3}
+      propertyPath: destroyTimer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7853659789943243045, guid: 534934434949d8c42b121699ba61f394, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.24
