@@ -5,56 +5,49 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
-    public int level;
-    public int estrellitas;
+    public static GameManager instance { get; private set; }
+
+    [Header("Game State")]
+    public bool isGamePaused = false;
+    public int currentLevel;
+    public bool goalReached;
+
+    [Header("Level Stats")] 
+    //public float[] scores;//para cada nivel
+    public int[] stars;//para cada nivel
+    public float[] times;//para cada nivel
+
     public float tiempoTotal;
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-
-        }
-        else if (instance != this)
+        
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     public void SetLevel(int level)
     {
-        this.level = level;
+        this.currentLevel = level;
     }
 
     public void SetNextLevel()
     {
-        this.level = level+1;
-        print(this.level);
-        if (this.level == 2) //si es el último nivel
+        this.currentLevel = currentLevel + 1;
+        print(this.currentLevel);
+        if (this.currentLevel == 2) //si es el último nivel
         {
             HighScore();
         }
         else
         {
-            SceneManager.LoadScene(this.level);
+            SceneManager.LoadScene(this.currentLevel);
         }
-    }
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        tiempoTotal += Time.deltaTime;
     }
 
     public IEnumerator nextScene()
@@ -74,5 +67,12 @@ public class GameManager : MonoBehaviour
         print("Tiempo:" + minutos +":"+ segundos);
         print($"Tiempo total: {minutos:D2}:{segundos:D2}");
 
+    }
+    void calcularTiempoTotal()
+    {
+        for(int i =0; i< times.Length; i++)
+        {
+            tiempoTotal= +times[i];
+        }
     }
 }
