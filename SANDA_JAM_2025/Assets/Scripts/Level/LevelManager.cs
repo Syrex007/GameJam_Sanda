@@ -22,14 +22,13 @@ public class LevelManager : MonoBehaviour
 
     [Header("Timer")]
     [SerializeField] private TMP_Text timerText;
-    private float elapsedTime = 0f;
+    public float elapsedTime = 0f;
 
+    public int currentStars;
 
     [Header("Star Rating Settings")] //cambian por cada nivel
-    [SerializeField] private float timeThreshold3Stars = 30f; // <= 30s
-    [SerializeField] private float timeThreshold2Stars = 60f; // <= 60s
-    [SerializeField] private int objectThreshold3Stars = 3;   // <= 3 objetos
-    [SerializeField] private int objectThreshold2Stars = 5;   // <= 5 objetos
+    [SerializeField] private float timeStarsThreshold = 30f; // 30s
+    [SerializeField] private int objectStarsThreshold = 4;   // 4 objetos
 
     private int usedItems = 0; // Puedes incrementar esto cuando el jugador use algo
 
@@ -126,8 +125,16 @@ public class LevelManager : MonoBehaviour
     {
         usedItems = itemManager.itemsUsed;
         PauseTimer();
-        GameManager.instance.stars[GameManager.instance.currentLevel] = CalculateStarRating();
-        GameManager.instance.times[GameManager.instance.currentLevel] = elapsedTime;
+
+        currentStars = CalculateStarRating();
+        if (GameManager.instance.stars[GameManager.instance.currentLevel] < currentStars)
+        {
+            GameManager.instance.stars[GameManager.instance.currentLevel] = currentStars;
+        }
+        if (((GameManager.instance.times[GameManager.instance.currentLevel] > elapsedTime)) || ((GameManager.instance.times[GameManager.instance.currentLevel] == 0))) {
+            GameManager.instance.times[GameManager.instance.currentLevel] = elapsedTime;
+        }
+        
         endResultsUI.SetActive(true);
     }
 
@@ -138,23 +145,18 @@ public class LevelManager : MonoBehaviour
     }
     private int CalculateStarRating()
     {
-        int timeStars = 1;
-        int objectStars = 1;
+        int finalStars = 1;
 
         // Evaluar por tiempo
-        if (elapsedTime <= timeThreshold3Stars)
-            timeStars = 3;
-        else if (elapsedTime <= timeThreshold2Stars)
-            timeStars = 2;
+        if (elapsedTime <= timeStarsThreshold)
+            finalStars++;
+      
 
         // Evaluar por objetos usados
-        if (usedItems <= objectThreshold3Stars)
-            objectStars = 3;
-        else if (usedItems <= objectThreshold2Stars)
-            objectStars = 2;
+        if (usedItems <= objectStarsThreshold)
+            finalStars++;
+       
 
-        // Promediar (redondeado hacia abajo)
-        int finalStars = Mathf.Min(timeStars, objectStars);
         return finalStars;
     }
 
