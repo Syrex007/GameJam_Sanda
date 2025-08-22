@@ -3311,7 +3311,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cant Max Gravitators para estrella: 2/5\nTiempo Max: 20 segundos\nAparece
+  m_Text: "Cant Max Gravitators para estrella: 2/5\nTiempo Max: 16 segundos\nAparece
     desde el inicio el hamster atrapado por una fuerza peque\xF1a, x lo que pese
     a dar la opcion de una fuerza equivalente, le damos una nueva opcion para sacarlo
     del pull, q seria la fuerza nivel 2"
