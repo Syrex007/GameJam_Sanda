@@ -1920,10 +1920,10 @@ MonoBehaviour:
   itemManager: {fileID: 0}
   requiredHoldTime: 1
   timerText: {fileID: 1365929976}
-  timeThreshold3Stars: 30
-  timeThreshold2Stars: 60
-  objectThreshold3Stars: 3
-  objectThreshold2Stars: 5
+  elapsedTime: 0
+  currentStars: 0
+  timeStarsThreshold: 30
+  objectStarsThreshold: 4
   endResultsUI: {fileID: 0}
 --- !u!1 &645551871
 GameObject:
@@ -7626,7 +7626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -66.16504, y: -8.709717}
+  m_AnchoredPosition: {x: -66.1651, y: -8.709717}
   m_SizeDelta: {x: -274.63007, y: -181.57999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1616133757
@@ -9018,7 +9018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cant Max Gravitators para estrella: 3/5\nTiempo Max: 35 segundos\nSe quiere
+  m_Text: "Cant Max Gravitators para estrella: 3/5\nTiempo Max: 20 segundos\nSe quiere
     ense\xF1ar q 2 gravitators a la derecha vencen a uno solo para poder guiar adecuadamente
     al hamster hacia la direccion que el jugador quiere\n"
 --- !u!222 &2099010853
