@@ -73,7 +73,7 @@ public class UI_TweenEffects : MonoBehaviour
         if (onComplete != null) currentTween.OnComplete(() => onComplete());
     }
 
-    private void KillCurrentTween()
+    public void KillCurrentTween()
     {
         if (currentTween != null && currentTween.IsActive())
             currentTween.Kill();

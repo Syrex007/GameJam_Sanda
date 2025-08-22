@@ -20,16 +20,19 @@ public class UICursorFollower : MonoBehaviour
     void Update()
     {
         if (followerImage == null || !followerImage.gameObject.activeSelf) return;
+        if (!GameManager.instance.isGamePaused)
+        {
+            Vector2 localPos;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                canvas.transform as RectTransform,
+                Input.mousePosition,
+                canvas.worldCamera,
+                out localPos
+            );
 
-        Vector2 localPos;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(
-            canvas.transform as RectTransform,
-            Input.mousePosition,
-            canvas.worldCamera,
-            out localPos
-        );
-
-        followerRect.localPosition = localPos;
+            followerRect.localPosition = localPos;
+        }
+        
     }
 
     

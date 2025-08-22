@@ -12,6 +12,8 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
     private UICursorFollower cursorFollower;
 
+    public int itemsUsed = 0;
+
     void Start()
     {
         cursorFollower = FindObjectOfType<UICursorFollower>();
@@ -113,6 +115,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
                     {
                         Instantiate(instantiableObjects[selectedItemIndex], worldPos, Quaternion.identity);
                         item.UseItem(1);
+                        itemsUsed = itemsUsed + 1;
                     }
                     return;
                 }
