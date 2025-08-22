@@ -26,6 +26,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
         {
             if (Input.GetKeyDown(i.ToString())) // checks "1","2","3",...
             {
+                
                 SelectByHierarchyIndex(i);
             }
         }
@@ -43,6 +44,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
                 {
                     SelectItem(item.itemIndex);
                     item.SelectAnimation(); // Play selection animation
+                    SoundFXManager.instance.PlaySoundByName("Damage1", gameObject.transform);
                 }
                 else
                 {
