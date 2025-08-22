@@ -51,7 +51,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   destroyTimer: 0
-  gravity: -30
+  gravity: 10
   Radius: 40
   AttractedObjects: []
   attractorTransform: {fileID: 0}

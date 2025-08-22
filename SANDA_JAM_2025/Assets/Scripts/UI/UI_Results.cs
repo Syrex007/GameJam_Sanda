@@ -6,6 +6,7 @@ public class UI_Results : MonoBehaviour
 {
     private float timeTaken;
     private int stars;
+    [SerializeField] private LevelManager levelManager; 
 
     [SerializeField] private TMP_Text starsText;
     [SerializeField] private TMP_Text timeText;
@@ -43,9 +44,9 @@ public class UI_Results : MonoBehaviour
     {
         if (GameManager.instance.goalReached)
         {
-            int currentLevel = GameManager.instance.currentLevel;
-            stars = GameManager.instance.stars[currentLevel];
-            timeTaken = GameManager.instance.times[currentLevel];
+            
+            stars = levelManager.currentStars;
+            timeTaken = levelManager.elapsedTime;
 
             int minutes = (int)(timeTaken / 60);
             int seconds = (int)(timeTaken % 60);
