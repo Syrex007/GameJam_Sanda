@@ -2432,10 +2432,10 @@ MonoBehaviour:
   itemManager: {fileID: 183067159}
   requiredHoldTime: 1
   timerText: {fileID: 1365929976}
-  timeThreshold3Stars: 30
-  timeThreshold2Stars: 60
-  objectThreshold3Stars: 3
-  objectThreshold2Stars: 5
+  elapsedTime: 0
+  currentStars: 0
+  timeStarsThreshold: 30
+  objectStarsThreshold: 4
   endResultsUI: {fileID: 806140404}
 --- !u!1 &630551820
 GameObject:
@@ -3277,6 +3277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a6b308f515a398469661bea3ef7b240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelManager: {fileID: 626385693}
   starsText: {fileID: 57696698}
   timeText: {fileID: 1642227266}
   startPosY: 1000

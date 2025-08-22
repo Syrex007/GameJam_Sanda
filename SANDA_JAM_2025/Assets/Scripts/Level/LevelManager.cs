@@ -131,7 +131,7 @@ public class LevelManager : MonoBehaviour
         {
             GameManager.instance.stars[GameManager.instance.currentLevel] = currentStars;
         }
-        if (GameManager.instance.times[GameManager.instance.currentLevel] < elapsedTime) {
+        if (((GameManager.instance.times[GameManager.instance.currentLevel] > elapsedTime)) || ((GameManager.instance.times[GameManager.instance.currentLevel] == 0))) {
             GameManager.instance.times[GameManager.instance.currentLevel] = elapsedTime;
         }
         
