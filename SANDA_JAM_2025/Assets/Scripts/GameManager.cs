@@ -58,6 +58,10 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     void HighScore()
     {
         //muestra canvas con los tiempos logrados 

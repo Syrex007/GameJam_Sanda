@@ -8,7 +8,8 @@ public class WinningZone : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            LoadNextScene();
+            //LoadNextScene();
+            GameManager.instance.goalReached = true;
         }
     }
     public void LoadNextScene()

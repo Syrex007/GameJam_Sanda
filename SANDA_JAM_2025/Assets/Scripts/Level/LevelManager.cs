@@ -131,6 +131,11 @@ public class LevelManager : MonoBehaviour
         endResultsUI.SetActive(true);
     }
 
+    public void LoadNextLevel() {
+        GameManager.instance.goalReached = false;
+        //cambiar para mas escenas
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     private int CalculateStarRating()
     {
         int timeStars = 1;
