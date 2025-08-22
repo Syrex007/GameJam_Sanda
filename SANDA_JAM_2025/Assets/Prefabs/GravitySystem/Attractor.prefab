@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2970046223785319015}
   - component: {fileID: 7595772359486783333}
   - component: {fileID: 4279755090544858759}
-  - component: {fileID: 5829708927838838614}
   - component: {fileID: 2946458684632389009}
   m_Layer: 0
   m_Name: Attractor
@@ -44,7 +43,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8694148226940804890}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5f2251b65a0acd418d661aa4fb5b0da, type: 3}
   m_Name: 
@@ -170,20 +169,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5829708927838838614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8694148226940804890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8213d3bce9f4d844d89b6ebfe85230f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDragging: 0
-  isPlaced: 0
 --- !u!50 &2946458684632389009
 Rigidbody2D:
   serializedVersion: 5

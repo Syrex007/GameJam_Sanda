@@ -51,8 +51,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   destroyTimer: 0
-  gravity: 21
-  Radius: 6.85
+  gravity: 25
+  Radius: 40
   AttractedObjects: []
   attractorTransform: {fileID: 0}
 --- !u!114 &5737788406035827413
