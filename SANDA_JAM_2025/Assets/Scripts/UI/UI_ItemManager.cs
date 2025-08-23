@@ -7,6 +7,10 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] public GameObject[] instantiableObjects;
     [SerializeField] public int selectedItemIndex = -1;
+    private KeyCode selectedKey;
+    private bool keyHeldForActiveItem;
+
+
 
     [Header("Panel donde se instanciarán los objetos")]
     [SerializeField] private RectTransform targetPanel;
@@ -31,6 +35,14 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
                 SelectByHierarchyIndex(i);
             }
         }
+
+        // Deselect the item if key is released and it’s an active item
+        if (keyHeldForActiveItem && Input.GetKeyUp(selectedKey))
+        {
+            DeselectItem();
+            keyHeldForActiveItem = false;
+        }
+
     }
 
     private void SelectByHierarchyIndex(int hierarchyIndex)
@@ -41,22 +53,33 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
         {
             if (item.hierarchyIndex == hierarchyIndex)
             {
-                if (item.currentQuantity > 0) // only allow selection if available
+                if (item.currentQuantity > 0)
                 {
                     SelectItem(item.itemIndex);
-                    item.SelectAnimation(); // Play selection animation
+                    item.SelectAnimation();
                     SoundFXManager.instance.PlaySoundByName("Damage1", gameObject.transform);
+
+                    if (item.activeItem)
+                    {
+                        selectedKey = (KeyCode)(KeyCode.Alpha0 + hierarchyIndex);
+                        keyHeldForActiveItem = true;
+                    }
+                    else
+                    {
+                        keyHeldForActiveItem = false;
+                    }
                 }
                 else
                 {
-                    // If no quantity left and it’s selected, deselect it
                     if (selectedItemIndex == item.itemIndex)
                         DeselectItem();
                 }
+
                 return;
             }
         }
     }
+
 
     public void SelectItem(int index)
     {
@@ -73,7 +96,8 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
     private void UpdateCursorFollower()
     {
         
-        if (selectedItemIndex < 0 || selectedItemIndex >= instantiableObjects.Length)
+
+        if ((selectedItemIndex < 0 || selectedItemIndex >= instantiableObjects.Length)||(selectedItemIndex == 3)) //extintor
         {
             cursorFollower.Hide();
             return;
@@ -139,6 +163,8 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         if (selectedItemIndex < 0) return;
+
+        
         if (targetPanel == null) return;
 
         if (!RectTransformUtility.RectangleContainsScreenPoint(targetPanel, eventData.position, eventData.pressEventCamera))
@@ -154,6 +180,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
             {
                 if (item.itemIndex == selectedItemIndex)
                 {
+                    
                     if (item.currentQuantity > 0)
                     {
                         Instantiate(instantiableObjects[selectedItemIndex], worldPos, Quaternion.identity);

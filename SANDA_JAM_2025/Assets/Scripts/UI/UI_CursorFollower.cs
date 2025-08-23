@@ -3,13 +3,13 @@ using UnityEngine.UI;
 
 public class UICursorFollower : MonoBehaviour
 {
-    public Canvas canvas;         
-    public Image followerImage; 
-    public Image areaFollowerImage;   
+    public Canvas canvas;
+
+    public Image followerImage;
+    public Image areaFollowerImage;
 
     private RectTransform followerRect;
     private RectTransform areaFollowerRect;
-
 
     void Start()
     {
@@ -18,17 +18,17 @@ public class UICursorFollower : MonoBehaviour
 
         if (areaFollowerImage != null)
             areaFollowerRect = areaFollowerImage.GetComponent<RectTransform>();
-            
-        
 
         if (canvas == null)
-                canvas = GetComponentInParent<Canvas>();
+            canvas = GetComponentInParent<Canvas>();
     }
 
     void Update()
     {
-        if (followerImage == null || !followerImage.gameObject.activeSelf && 
-            (areaFollowerImage == null || !areaFollowerImage.gameObject.activeSelf)) return;
+        if ((followerImage == null || !followerImage.gameObject.activeSelf) &&
+            (areaFollowerImage == null || !areaFollowerImage.gameObject.activeSelf))
+            return;
+
         if (!GameManager.instance.isGamePaused)
         {
             Vector2 localPos;
@@ -39,39 +39,56 @@ public class UICursorFollower : MonoBehaviour
                 out localPos
             );
 
-            followerRect.localPosition = localPos;
-            
+            if (followerRect != null)
+                followerRect.localPosition = localPos;
+
             if (areaFollowerRect != null)
                 areaFollowerRect.localPosition = localPos;
         }
-        
     }
 
-
-    public void Show(Sprite sprite, Sprite areaSprite)
+    public void Show(Sprite sprite = null, Sprite areaSprite = null)
     {
-        followerImage.sprite = sprite;
-        followerImage.enabled = true;
-
-        Color c = followerImage.color;
-        c.a = 0.5f;
-        followerImage.color = c;
-
-        if (areaSprite != null)
+        if (followerImage != null)
         {
-            areaFollowerImage.sprite = areaSprite;
-            areaFollowerImage.enabled = true;
-            Color a = areaFollowerImage.color;
-            a.a = 0.3f;
-            areaFollowerImage.color = a;
+            if (sprite != null)
+            {
+                followerImage.sprite = sprite;
+                followerImage.enabled = true;
 
+                Color c = followerImage.color;
+                c.a = 0.5f;
+                followerImage.color = c;
+            }
+            else
+            {
+                followerImage.enabled = false;
+            }
         }
 
+        if (areaFollowerImage != null)
+        {
+            if (areaSprite != null)
+            {
+                areaFollowerImage.sprite = areaSprite;
+                areaFollowerImage.enabled = true;
+
+                Color a = areaFollowerImage.color;
+                a.a = 0.3f;
+                areaFollowerImage.color = a;
+            }
+            else
+            {
+                areaFollowerImage.enabled = false;
+            }
+        }
     }
 
     public void Hide()
     {
-        followerImage.enabled = false;
+        if (followerImage != null)
+            followerImage.enabled = false;
+
         if (areaFollowerImage != null)
             areaFollowerImage.enabled = false;
     }
