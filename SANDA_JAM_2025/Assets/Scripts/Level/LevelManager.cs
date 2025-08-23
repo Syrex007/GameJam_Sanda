@@ -36,6 +36,8 @@ public class LevelManager : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private GameObject endResultsUI;
+    [SerializeField] private TMP_Text starTimeText;
+    [SerializeField] private TMP_Text starItemsText;
 
     void Start()
     {
@@ -55,18 +57,36 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.instance.goalReached && (!levelFinished))
+        // Update star requirement texts
+        starItemsText.text = itemManager.itemsUsed + "/" + objectStarsThreshold + " items";
+        starTimeText.text = timeStarsThreshold + " sec.";
+
+        // Turn red if thresholds are surpassed
+        if (itemManager.itemsUsed > objectStarsThreshold)
+            starItemsText.color = Color.red;
+        else
+            starItemsText.color = Color.white;
+
+        if (elapsedTime > timeStarsThreshold)
+            starTimeText.color = Color.red;
+        else
+            starTimeText.color = Color.white;
+
+        // Check for level finish
+        if (GameManager.instance.goalReached && !levelFinished)
         {
             LevelFinish();
             levelFinished = true;
         }
 
+        // Timer logic
         if (!isTimerPaused)
         {
             elapsedTime += Time.deltaTime;
             UpdateTimerUI();
         }
 
+        // R to restart logic
         if (AnyKeyReleased())
             canHold = true;
 
@@ -96,6 +116,7 @@ public class LevelManager : MonoBehaviour
             holdTime = 0f;
         }
     }
+
 
 
     private bool AnyKeyReleased()
