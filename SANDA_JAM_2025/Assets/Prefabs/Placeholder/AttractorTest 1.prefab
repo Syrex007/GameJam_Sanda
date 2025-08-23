@@ -53,10 +53,15 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   destroyTimer: 3
-  gravity: -30
+  gravity: -15
   Radius: 21
   AttractedObjects: []
   attractorTransform: {fileID: 0}
+  attractorType: 1
+  superMultiplier: 2
+  pulseAmplitude: 0.5
+  pulseFrequency: 1.5
+  tangentialScale: 0.5
 --- !u!114 &2970046223785319015
 MonoBehaviour:
   m_ObjectHideFlags: 0

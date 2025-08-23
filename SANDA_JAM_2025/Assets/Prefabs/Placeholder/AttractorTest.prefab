@@ -57,6 +57,11 @@ MonoBehaviour:
   Radius: 15
   AttractedObjects: []
   attractorTransform: {fileID: 0}
+  attractorType: 0
+  superMultiplier: 0
+  pulseAmplitude: 0
+  pulseFrequency: 0
+  tangentialScale: 0
 --- !u!114 &2970046223785319015
 MonoBehaviour:
   m_ObjectHideFlags: 0
