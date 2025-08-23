@@ -1,50 +1,79 @@
-using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using TMPro;
-using UnityEngine.Events;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class UI_SelectableItem :  MonoBehaviour, IPointerClickHandler, IPointerDownHandler, IPointerUpHandler
+public class UI_ItemJetpack : MonoBehaviour
 {
-    private bool mouseHeldOnThis = false; 
-
     [HideInInspector] public int hierarchyIndex;
     [SerializeField] public int itemIndex;
 
-    [Header("Active Effect Settings")]
-    public UnityEvent onActiveUse;
-    [SerializeField] private float depleteRate = 1f;
-    [SerializeField] public bool activeItem = false;
-
-    [SerializeField] private UI_ItemManager itemManager;
+    private UI_ItemManager itemManager;
     private UI_TweenEffects effects;
 
-    [SerializeField] public int startQuantity;
+    [SerializeField] private int startQuantity;
     [SerializeField] public int currentQuantity;
+    [SerializeField] public float decraseRate;
+
+    [SerializeField] private Item_Jetpack jetpackItem;
 
     [Header("UI References")]
     [SerializeField] private TMP_Text hierarchyText;
     [SerializeField] private TMP_Text quantityText;
 
-    private KeyCode myKey; // Store assigned number key
-    private bool keyHeld = false;
+    private bool isHolding = false;
 
-    private bool activeUsed = false;
     void Start()
     {
         currentQuantity = startQuantity;
         itemManager = FindObjectOfType<UI_ItemManager>();
         effects = GetComponent<UI_TweenEffects>();
-        myKey = KeyCode.Alpha0 + (transform.GetSiblingIndex() + 1);
         UpdateUI();
+    }
+
+    void Update()
+    {
+        hierarchyIndex = transform.GetSiblingIndex() + 1;
+        UpdateUI();
+
+        // Only run if jetpack is the selected item
+        if (itemManager != null && itemManager.selectedItemIndex == itemIndex)
+        {
+            if (Input.GetMouseButtonDown(0) && currentQuantity > 0)
+            {
+                isHolding = true;
+                effects.PlayPop(
+                    startScale: Vector3.one * 0.95f,
+                    popScale: Vector3.one * 1.15f,
+                    endScale: Vector3.one,
+                    duration: 0.4f,
+                    popRatio: 0.3f,
+                    popEase: DG.Tweening.Ease.OutBack,
+                    settleEase: DG.Tweening.Ease.InOutSine
+                );
+            }
+
+            if (Input.GetMouseButton(0) && isHolding && currentQuantity > 0)
+            {
+                jetpackItem.ApplyJetpackForce();
+                currentQuantity -= Mathf.CeilToInt(decraseRate * Time.deltaTime);
+                if (currentQuantity <= 0)
+                {
+                    currentQuantity = 0;
+                    itemManager.DeselectItem();
+                    isHolding = false;
+                }
+            }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                isHolding = false;
+            }
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button != PointerEventData.InputButton.Left) return;
-
-        // Ignore clicks for active items — use OnPointerDown/Up instead
-        if (activeItem) return;
 
         if (currentQuantity <= 0)
         {
@@ -67,25 +96,6 @@ public class UI_SelectableItem :  MonoBehaviour, IPointerClickHandler, IPointerD
                 SelectAnimation();
             }
         }
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        if (eventData.button != PointerEventData.InputButton.Left || !activeItem || currentQuantity <= 0)
-            return;
-
-        itemManager?.SelectItem(itemIndex);
-        SelectAnimation();
-        mouseHeldOnThis = true;
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        if (eventData.button != PointerEventData.InputButton.Left || !mouseHeldOnThis)
-            return;
-
-        itemManager?.DeselectItem();
-        mouseHeldOnThis = false;
     }
 
     public void SelectAnimation()
@@ -122,34 +132,4 @@ public class UI_SelectableItem :  MonoBehaviour, IPointerClickHandler, IPointerD
         if (quantityText != null)
             quantityText.text = $"x{currentQuantity}";
     }
-
-    private void Update()
-    {
-        if (activeItem && currentQuantity == 0 && !activeUsed)
-        {
-            itemManager.itemsUsed++;
-            activeUsed = true;
-        }
-        hierarchyIndex = transform.GetSiblingIndex() + 1;
-        UpdateUI();
-
-        if (itemManager == null || currentQuantity <= 0)
-            return;
-
-        if (activeItem && itemManager.selectedItemIndex == itemIndex && currentQuantity > 0)
-        {
-            onActiveUse?.Invoke();
-            currentQuantity -= Mathf.CeilToInt(depleteRate * Time.deltaTime);
-
-            if (currentQuantity <= 0)
-            {
-                currentQuantity = 0;
-                itemManager.DeselectItem();
-            }
-
-            UpdateUI();
-        }
-
-    }
-
 }

@@ -41,9 +41,9 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        if (!SoundFXManager.instance.IsSoundPlaying("BattleLoop"))
+        if (!SoundFXManager.instance.IsSoundPlaying("Tema1"))
         {
-            SoundFXManager.instance.PlaySoundByName("BattleLoop", gameObject.transform,0.1f, 1f, true);
+            SoundFXManager.instance.PlaySoundByName("Tema1", gameObject.transform,1f, 1f, true);
         }
             
 
