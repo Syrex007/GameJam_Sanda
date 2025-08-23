@@ -39,6 +39,12 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
+        if (!SoundFXManager.instance.IsSoundPlaying("BattleLoop"))
+        {
+            SoundFXManager.instance.PlaySoundByName("BattleLoop", gameObject.transform,0.1f, 1f, true);
+        }
+            
+
         GameManager.instance.currentLevel = levelIndex;
         canHold = false;
         transitionCanvas.SetActive(true);
