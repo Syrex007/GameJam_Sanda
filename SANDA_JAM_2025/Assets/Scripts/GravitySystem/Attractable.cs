@@ -6,7 +6,7 @@ public class Attractable : MonoBehaviour
     [SerializeField] private Attractor currentAttractor;
     [SerializeField] private float gravityStrength = 100;
 
-    [SerializeField] private float destroyTimer;
+    //[SerializeField] private float destroyTimer;
 
     Transform m_transform;
     Collider2D m_collider;
