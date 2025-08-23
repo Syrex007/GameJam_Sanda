@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -71,6 +72,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
     private void UpdateCursorFollower()
     {
+        
         if (selectedItemIndex < 0 || selectedItemIndex >= instantiableObjects.Length)
         {
             cursorFollower.Hide();
@@ -79,6 +81,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
         GameObject obj = instantiableObjects[selectedItemIndex];
         Sprite sprite = null;
+        Sprite areaSprite = null;
 
         if (obj != null)
         {
@@ -87,12 +90,50 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
             var img = obj.GetComponent<Image>();
             if (img != null) sprite = img.sprite;
+
+            if (obj.transform.childCount > 0)
+            {
+                foreach (Transform child in obj.transform)
+                {
+                    var childSR = child.GetComponent<SpriteRenderer>();
+
+                    if (childSR != null)
+                    {
+                        areaSprite = childSR.sprite;
+                        ResizeAreaFollower(child.localScale.x);
+
+                        break;
+                    }    
+
+                    var childImg = child.GetComponent<Image>();
+                    if (childImg != null)
+                    {
+                        areaSprite = childImg.sprite;
+                        ResizeAreaFollower(child.localScale.x);
+                        break;
+                    }
+                    
+                    
+                }
+            }
         }
 
-        if (sprite != null)
-            cursorFollower.Show(sprite);
+        if (sprite != null || areaSprite != null)
+            cursorFollower.Show(sprite, areaSprite);
         else
             cursorFollower.Hide();
+    }
+
+    private void ResizeAreaFollower(float objectScale)
+    {
+        if (cursorFollower.areaFollowerImage != null)
+        {
+            RectTransform areaRect = cursorFollower.areaFollowerImage.GetComponent<RectTransform>();
+
+            // Tamaño base = 100x100, multiplicador = 55 * escala del objeto
+            float finalSize = objectScale * 55f;
+            areaRect.sizeDelta = new Vector2(finalSize, finalSize);
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)

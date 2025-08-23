@@ -19,7 +19,7 @@ public class Attractor : MonoBehaviour
 
     void Start()
     {
-        //gameObject.GetComponent<DestroyGravitator>().DestroySelf(destroyTimer);
+        gameObject.GetComponent<DestroyGravitator>().DestroySelf(destroyTimer);
     }
 
     void Update()
