@@ -8,7 +8,7 @@ public class Attractor : MonoBehaviour
 
     [SerializeField] private float destroyTimer;
     public float gravity = 10;
-    [SerializeField] private float Radius = 10;
+    [SerializeField] public float Radius = 10;
     public List<Collider2D> AttractedObjects = new List<Collider2D>();
     [HideInInspector] public Transform attractorTransform;
     

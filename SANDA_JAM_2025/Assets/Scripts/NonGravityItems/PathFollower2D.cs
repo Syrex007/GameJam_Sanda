@@ -12,29 +12,22 @@ public class PathFollower2D : MonoBehaviour
     }
 
     [Header("Configuración del recorrido")]
-    [Tooltip("Lista de nodos por donde pasará el objeto.")]
     public List<Transform> pathNodes = new List<Transform>();
 
-    [Tooltip("Velocidad base de movimiento.")]
     public float moveSpeed = 3f;
 
-    [Tooltip("Tiempo de pausa en segundos en cada nodo (0 = sin pausas).")]
     public float pausaPorNodo = 0f;
 
-    [Tooltip("Selecciona el tipo de movimiento.")]
     public MovementMode movementMode = MovementMode.OneWay;
 
     [Header("Gizmos")]
-    [Tooltip("Color de la línea del camino en la escena.")]
     public Color gizmoColor = Color.cyan;
-    [Tooltip("Color de los nodos.")]
     public Color nodoColor = Color.red;
-    [Tooltip("Tamaño visual de los nodos.")]
     public float tamañoNodo = 0.15f;
 
     private int currentNodeIndex = 0;
     private bool isMoving = true;
-    private bool goingForward = true; // Solo para PingPong
+    private bool goingForward = true;
     private bool isPaused = false;
 
     private void Start()
@@ -67,7 +60,7 @@ public class PathFollower2D : MonoBehaviour
 
         switch (movementMode)
         {
-            // -------- ONE WAY → Llega al final y se detiene --------
+            // Llega al final y se detiene --------
             case MovementMode.OneWay:
                 currentNodeIndex++;
                 if (currentNodeIndex >= pathNodes.Count)
@@ -77,7 +70,7 @@ public class PathFollower2D : MonoBehaviour
                 }
                 break;
 
-            // -------- LOOP → Del último nodo al primero --------
+            // Del último nodo al primero --------
             case MovementMode.Loop:
                 currentNodeIndex++;
                 if (currentNodeIndex >= pathNodes.Count)
@@ -86,7 +79,7 @@ public class PathFollower2D : MonoBehaviour
                 }
                 break;
 
-            // -------- PING PONG → Va y regresa --------
+            // Va y regresa
             case MovementMode.PingPong:
                 if (goingForward)
                 {
