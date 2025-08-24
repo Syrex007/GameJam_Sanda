@@ -165,7 +165,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &15513943
 MonoBehaviour:
@@ -14564,7 +14564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.130066, y: 1.7800293}
+  m_AnchoredPosition: {x: -2.130005, y: 1.7800293}
   m_SizeDelta: {x: -1054.8601, y: -185.3599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1866227779
