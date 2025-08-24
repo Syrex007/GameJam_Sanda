@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PathFollower2D : MonoBehaviour
 {
     public enum MovementMode
@@ -13,11 +14,8 @@ public class PathFollower2D : MonoBehaviour
 
     [Header("Configuración del recorrido")]
     public List<Transform> pathNodes = new List<Transform>();
-
     public float moveSpeed = 3f;
-
     public float pausaPorNodo = 0f;
-
     public MovementMode movementMode = MovementMode.OneWay;
 
     [Header("Gizmos")]
@@ -30,21 +28,34 @@ public class PathFollower2D : MonoBehaviour
     private bool goingForward = true;
     private bool isPaused = false;
 
+    private Rigidbody2D rb;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0; // Para que no caiga si hay físicas 2D activas
+        rb.freezeRotation = true; // No queremos que rote al moverse
+    }
+
     private void Start()
     {
         if (pathNodes.Count > 0)
-            transform.position = pathNodes[0].position;
+            rb.position = pathNodes[0].position; // Ajustamos la posición inicial del rigidbody
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!isMoving || pathNodes.Count < 2 || isPaused)
             return;
 
         Transform objetivo = pathNodes[currentNodeIndex];
-        transform.position = Vector2.MoveTowards(transform.position, objetivo.position, moveSpeed * Time.deltaTime);
 
-        if (Vector2.Distance(transform.position, objetivo.position) <= 0.05f)
+        // Calculamos la nueva posición usando MovePosition
+        Vector2 nuevaPosicion = Vector2.MoveTowards(rb.position, objetivo.position, moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(nuevaPosicion);
+
+        // Si llegamos al nodo, procesamos la pausa o el siguiente nodo
+        if (Vector2.Distance(rb.position, objetivo.position) <= 0.05f)
         {
             StartCoroutine(HandleNodeReached());
         }
@@ -54,32 +65,27 @@ public class PathFollower2D : MonoBehaviour
     {
         isPaused = true;
 
-        // Aplica pausa si está configurada
+        // Si hay pausa configurada, esperamos en el nodo
         if (pausaPorNodo > 0)
             yield return new WaitForSeconds(pausaPorNodo);
 
         switch (movementMode)
         {
-            // Llega al final y se detiene --------
             case MovementMode.OneWay:
                 currentNodeIndex++;
                 if (currentNodeIndex >= pathNodes.Count)
                 {
-                    isMoving = false; // Detener el movimiento al final
+                    isMoving = false; // Termina el recorrido
                     yield break;
                 }
                 break;
 
-            // Del último nodo al primero --------
             case MovementMode.Loop:
                 currentNodeIndex++;
                 if (currentNodeIndex >= pathNodes.Count)
-                {
-                    currentNodeIndex = 0; // Reinicia al primer nodo
-                }
+                    currentNodeIndex = 0;
                 break;
 
-            // Va y regresa
             case MovementMode.PingPong:
                 if (goingForward)
                 {
