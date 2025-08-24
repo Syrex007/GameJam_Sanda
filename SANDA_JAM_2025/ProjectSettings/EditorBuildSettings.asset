@@ -9,28 +9,28 @@ EditorBuildSettings:
     path: Assets/Scenes/franco/GravitySystem.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/TutoLayOut.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_0.unity
     guid: b31a3cb79ab11d04db620dcd39e12eeb
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_01.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_1.unity
     guid: e47f9edf53782cc40ac092efc561bbcc
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_02.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_2.unity
     guid: c01f40dd471200b47939764f531800d6
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_03.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_3.unity
     guid: 145ed3a95a3ed074b8dea624840d5695
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_04.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_4.unity
     guid: 2e2555d8d7a54784b944ffedd5b58444
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_05.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_5.unity
     guid: 6f4519da1cbbc014fb50a7d207041c24
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_06.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_6.unity
     guid: d1bfa3b4483e747418319d1ac60b7736
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_07.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_7.unity
     guid: 5c740971e62419e428b7df47e32da008
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
