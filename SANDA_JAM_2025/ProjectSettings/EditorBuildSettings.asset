@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_7.unity
     guid: 5c740971e62419e428b7df47e32da008
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_8.unity
+    guid: 35c1ac5cce182db48bd1446842a775ac
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_9.unity
+    guid: 49592acf29df8df4994cc6a626a71a9d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
