@@ -167,10 +167,14 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel() {
         GameManager.instance.goalReached = false;
+        SoundFXManager.instance.StopSoundByName("Item1");
+        SoundFXManager.instance.StopSoundByName("Item2");
+        SoundFXManager.instance.StopSoundByName("Item3");
+        SoundFXManager.instance.StopSoundByName("Extinguisher");
         //cambiar para mas escenas
-        
-    // Obtenemos el índice de la escena actual
-    int currentIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Obtenemos el índice de la escena actual
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
 
     // Obtenemos cuántas escenas hay en Build Settings
     int totalScenes = SceneManager.sceneCountInBuildSettings;
