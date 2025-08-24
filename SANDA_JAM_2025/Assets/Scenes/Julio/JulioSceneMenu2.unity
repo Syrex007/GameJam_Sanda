@@ -247,7 +247,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11, y: -1.72, z: 0}
-  m_LocalScale: {x: 2.39, y: 2.39, z: 2.39}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -287,7 +287,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.98
+  m_Radius: 0.5
 --- !u!114 &15513947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,6 +546,9 @@ MonoBehaviour:
   hierarchyIndex: 0
   itemIndex: 1
   onActiveUse:
+    m_PersistentCalls:
+      m_Calls: []
+  onReleaseUse:
     m_PersistentCalls:
       m_Calls: []
   depleteRate: 1
@@ -6456,6 +6459,8 @@ MonoBehaviour:
   soundFXClips:
   - {fileID: 8300000, guid: ac9c12945d421814cb365a8abe99e4ae, type: 3}
   - {fileID: 8300000, guid: ceeb4077473fabc46aa21bf0a7717ad2, type: 3}
+  - {fileID: 8300000, guid: 4e18ed36a897d734b919404522976dd2, type: 3}
+  - {fileID: 8300000, guid: fbecad7ae1fb3e9428f81b98bc239fde, type: 3}
 --- !u!1 &972660874
 GameObject:
   m_ObjectHideFlags: 0
@@ -7585,6 +7590,9 @@ MonoBehaviour:
   hierarchyIndex: 0
   itemIndex: 0
   onActiveUse:
+    m_PersistentCalls:
+      m_Calls: []
+  onReleaseUse:
     m_PersistentCalls:
       m_Calls: []
   depleteRate: 1
@@ -9568,6 +9576,9 @@ MonoBehaviour:
   hierarchyIndex: 0
   itemIndex: 2
   onActiveUse:
+    m_PersistentCalls:
+      m_Calls: []
+  onReleaseUse:
     m_PersistentCalls:
       m_Calls: []
   depleteRate: 1

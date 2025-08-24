@@ -7,6 +7,8 @@ public class PlayerStart : MonoBehaviour
     [SerializeField] private float minAngularSpeed = -180f;
     [SerializeField] private float maxAngularSpeed = 180f;
     [SerializeField] private GameObject winZone;
+    [SerializeField] private Animator hamsterAnimator;
+    [SerializeField] private string collisionSoundName = "HamsterHit"; // Set this to the clip name in SoundFXManager
 
     private Rigidbody2D rb;
     private bool goalAnimationStarted = false;
@@ -43,5 +45,13 @@ public class PlayerStart : MonoBehaviour
                          .SetLoops(-1, LoopType.Incremental);
             });
         }
+
+        hamsterAnimator.SetFloat("RotationSpeed", Mathf.Abs(rb.angularVelocity));
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Play sound when colliding with any object
+        SoundFXManager.instance.PlaySoundByName(collisionSoundName, transform);
     }
 }
