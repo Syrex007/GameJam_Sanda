@@ -22,9 +22,9 @@ public class HandTuto : MonoBehaviour
     public bool checkMovePlayer = false;
     [Tooltip("Desde la animación activará este check para indicar que ya terminó y podría pasar al siguiente HandTuto.")]
     public bool checkInactive = false;
-    public int countSelectItem = 0;
-    public int countMoveItem = 0;
-    public int countInactive = 0;
+    private int countSelectItem = 0;
+    private int countMoveItem = 0;
+    private int countInactive = 0;
 
     public int changeRadius;
 
@@ -95,7 +95,7 @@ public class HandTuto : MonoBehaviour
             setActiveSimulated(false);
             gameObject.SetActive(false);
             if (goNextHandActive) goNextHandActive.SetActive(true);
-            //print("Entra a waitInactive a pasarlo a false por " + gameObject.name);
+            
         }
         
         
@@ -103,8 +103,6 @@ public class HandTuto : MonoBehaviour
 
     public void setActiveSimulated(bool state)
     {
-        //print("Entra active simulated:"+state + "por " + gameObject.name);
-
 
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = state;
     }
