@@ -10,7 +10,7 @@ public class HandTuto : MonoBehaviour
     public GameObject goPrefabItemInstanciar;
 
     [Tooltip("Tiempo de espera al llegar al punto final antes de pasar al siguiente objeto.")]
-    public int waitTimePointEnd;
+    public float waitTimePointEnd;
 
     [Tooltip("Objeto siguiente que se desea activar al llegar al punto final.")]
     public GameObject goNextHandActive = null;    
@@ -22,10 +22,13 @@ public class HandTuto : MonoBehaviour
     public bool checkMovePlayer = false;
     [Tooltip("Desde la animación activará este check para indicar que ya terminó y podría pasar al siguiente HandTuto.")]
     public bool checkInactive = false;
-    private int countSelectItem = 0;
-    private int countMoveItem = 0;
+    public int countSelectItem = 0;
+    public int countMoveItem = 0;
+    public int countInactive = 0;
 
-    
+    public int changeRadius;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -47,6 +50,7 @@ public class HandTuto : MonoBehaviour
         if (checkInactive)
         {
             StartCoroutine(waitInactive());
+            countInactive++;
         }
 
     }
@@ -72,20 +76,39 @@ public class HandTuto : MonoBehaviour
 
     public void instanciarItem()
     {
-        if (countMoveItem == 0) Instantiate(goPrefabItemInstanciar, transform);
+        if (countMoveItem == 0) {
+            GameObject goInst = Instantiate(goPrefabItemInstanciar, transform);
+            if (changeRadius > 0) goInst.GetComponent<Attractor>().Radius = changeRadius;
+        } 
         checkMovePlayer = false;
 
     }
 
-
+    public void callwaitInactive() => StartCoroutine(waitInactive());
 
     IEnumerator waitInactive()
     {
-        checkInactive = false;
-        yield return new WaitForSeconds(waitTimePointEnd);
-        gameObject.SetActive(false);
-        if (goNextHandActive) goNextHandActive.SetActive(true);
-
+        if(countInactive == 0)
+        {
+            checkInactive = false;
+            yield return new WaitForSeconds(waitTimePointEnd);
+            setActiveSimulated(false);
+            gameObject.SetActive(false);
+            if (goNextHandActive) goNextHandActive.SetActive(true);
+            //print("Entra a waitInactive a pasarlo a false por " + gameObject.name);
+        }
+        
+        
     }
+
+    public void setActiveSimulated(bool state)
+    {
+        //print("Entra active simulated:"+state + "por " + gameObject.name);
+
+
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = state;
+    }
+
+   
 
 }
