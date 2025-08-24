@@ -9431,13 +9431,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f28cd1da6511f0468f69cc7ed3ad188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelIndex: 0
   transitionCanvas: {fileID: 605922982}
   itemManager: {fileID: 183067159}
   requiredHoldTime: 1
   timerText: {fileID: 1365929976}
   elapsedTime: 0
   currentStars: 0
-  timeStarsThreshold: 26
+  timeStarsThreshold: 10000
   objectStarsThreshold: 2
   endResultsUI: {fileID: 806140404}
   starTimeText: {fileID: 926244617}
@@ -9959,9 +9960,6 @@ MonoBehaviour:
   checkAnimItem: 0
   checkMovePlayer: 0
   checkInactive: 0
-  countSelectItem: 0
-  countMoveItem: 0
-  countInactive: 0
   changeRadius: 6
 --- !u!212 &702358325
 SpriteRenderer:
@@ -11890,9 +11888,6 @@ MonoBehaviour:
   checkAnimItem: 0
   checkMovePlayer: 0
   checkInactive: 0
-  countSelectItem: 0
-  countMoveItem: 0
-  countInactive: 0
   changeRadius: 0
 --- !u!95 &966587092
 Animator:
@@ -12379,9 +12374,6 @@ MonoBehaviour:
   checkAnimItem: 0
   checkMovePlayer: 0
   checkInactive: 0
-  countSelectItem: 0
-  countMoveItem: 0
-  countInactive: 0
   changeRadius: 0
 --- !u!212 &998369623
 SpriteRenderer:
@@ -14515,9 +14507,6 @@ MonoBehaviour:
   checkAnimItem: 0
   checkMovePlayer: 0
   checkInactive: 0
-  countSelectItem: 0
-  countMoveItem: 0
-  countInactive: 0
   changeRadius: 10
 --- !u!1 &1479145824
 GameObject:
@@ -14862,7 +14851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 101.5, y: -465.28833}
+  m_AnchoredPosition: {x: 101.5, y: -465.28836}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1574272990
@@ -17547,7 +17536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 478.66016, y: -79.200165}
+  m_AnchoredPosition: {x: 478.6601, y: -79.200165}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918250950
