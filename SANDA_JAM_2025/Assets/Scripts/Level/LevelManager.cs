@@ -41,9 +41,9 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        if (!SoundFXManager.instance.IsSoundPlaying("Tema1"))
+        if (!SoundFXManager.instance.IsSoundPlaying("Tema2"))
         {
-            SoundFXManager.instance.PlaySoundByName("Tema1", gameObject.transform,1f, 1f, true);
+            SoundFXManager.instance.PlaySoundByName("Tema2", gameObject.transform,1f, 1f, true);
         }
             
 
@@ -90,7 +90,7 @@ public class LevelManager : MonoBehaviour
         if (AnyKeyReleased())
             canHold = true;
 
-        if (Input.GetKeyDown(KeyCode.R) && canHold)
+        if (Input.GetKeyDown(KeyCode.R) && canHold&& !GameManager.instance.goalReached)
         {
             isHoldingR = true;
             holdTime = 0f;

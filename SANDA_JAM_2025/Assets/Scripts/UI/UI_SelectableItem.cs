@@ -13,6 +13,7 @@ public class UI_SelectableItem :  MonoBehaviour, IPointerClickHandler, IPointerD
 
     [Header("Active Effect Settings")]
     public UnityEvent onActiveUse;
+    public UnityEvent onReleaseUse;
     [SerializeField] private float depleteRate = 1f;
     [SerializeField] public bool activeItem = false;
 
@@ -134,7 +135,11 @@ public class UI_SelectableItem :  MonoBehaviour, IPointerClickHandler, IPointerD
         UpdateUI();
 
         if (itemManager == null || currentQuantity <= 0)
+        {
+            onReleaseUse?.Invoke();
             return;
+        }
+            
 
         if (activeItem && itemManager.selectedItemIndex == itemIndex && currentQuantity > 0)
         {
@@ -148,6 +153,10 @@ public class UI_SelectableItem :  MonoBehaviour, IPointerClickHandler, IPointerD
             }
 
             UpdateUI();
+        }
+        else
+        {
+            onReleaseUse?.Invoke();
         }
 
     }

@@ -155,7 +155,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
             RectTransform areaRect = cursorFollower.areaFollowerImage.GetComponent<RectTransform>();
 
             // Tamaño base = 100x100, multiplicador = 55 * escala del objeto
-            float finalSize = objectScale * 55f;
+            float finalSize = objectScale * 110f;
             areaRect.sizeDelta = new Vector2(finalSize, finalSize);
         }
     }
