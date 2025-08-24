@@ -1,0 +1,1245 @@
+fileFormatVersion: 2
+guid: 0575a3e830f77dc49950eaac3097e9f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8255331175057644668
+    second: UIJAM_0
+  - first:
+      213: -544799509004392338
+    second: UIJAM_1
+  - first:
+      213: -5183028357540876563
+    second: UIJAM_2
+  - first:
+      213: 567860835072204500
+    second: UIJAM_3
+  - first:
+      213: 4207819435403484783
+    second: UIJAM_4
+  - first:
+      213: -4154821855445242372
+    second: UIJAM_5
+  - first:
+      213: 2745355016467170459
+    second: UIJAM_6
+  - first:
+      213: 1423336274014900269
+    second: UIJAM_7
+  - first:
+      213: -6659974644198434673
+    second: UIJAM_8
+  - first:
+      213: 3955590826556140440
+    second: UIJAM_9
+  - first:
+      213: -4308035829087681154
+    second: UIJAM_10
+  - first:
+      213: 5743721256465901372
+    second: UIJAM_11
+  - first:
+      213: 2629711538386745152
+    second: UIJAM_12
+  - first:
+      213: -577698577288500860
+    second: UIJAM_13
+  - first:
+      213: 422038776984145854
+    second: UIJAM_14
+  - first:
+      213: -8598925534975681088
+    second: UIJAM_15
+  - first:
+      213: 3513642667977774568
+    second: UIJAM_16
+  - first:
+      213: -2415349135823749596
+    second: UIJAM_17
+  - first:
+      213: 2329309139705606765
+    second: UIJAM_18
+  - first:
+      213: 5966197180724213808
+    second: UIJAM_19
+  - first:
+      213: -5607137714880981714
+    second: UIJAM_20
+  - first:
+      213: -3378173391337919506
+    second: UIJAM_21
+  - first:
+      213: -7875476625226800730
+    second: UIJAM_22
+  - first:
+      213: -1206831327698275611
+    second: UIJAM_23
+  - first:
+      213: 411559989688690657
+    second: UIJAM_24
+  - first:
+      213: 4708467467252558976
+    second: UIJAM_25
+  - first:
+      213: 1535800668466689415
+    second: UIJAM_26
+  - first:
+      213: 3311175302966916743
+    second: UIJAM_27
+  - first:
+      213: 8621810229518273728
+    second: UIJAM_28
+  - first:
+      213: -717689927809622786
+    second: UIJAM_29
+  - first:
+      213: 764487136470318527
+    second: UIJAM_30
+  - first:
+      213: 7384555871364008335
+    second: UIJAM_31
+  - first:
+      213: 4232229088624089957
+    second: UIJAM_32
+  - first:
+      213: 8986772657355399487
+    second: UIJAM_33
+  - first:
+      213: -7817897241036828374
+    second: UIJAM_34
+  - first:
+      213: 5397895369178166288
+    second: UIJAM_35
+  - first:
+      213: -3354712874640934166
+    second: UIJAM_36
+  - first:
+      213: -4610470404997321091
+    second: UIJAM_37
+  - first:
+      213: -6280075896904147870
+    second: UIJAM_38
+  - first:
+      213: 4615833458839150158
+    second: UIJAM_39
+  - first:
+      213: -3286008887545901867
+    second: UIJAM_40
+  - first:
+      213: -1398241335424508625
+    second: UIJAM_41
+  - first:
+      213: -1249211951584607508
+    second: UIJAM_42
+  - first:
+      213: -2020702051001413751
+    second: UIJAM_43
+  - first:
+      213: 386898362652818321
+    second: UIJAM_44
+  - first:
+      213: -7628028646597010305
+    second: UIJAM_45
+  - first:
+      213: 6540108799560120134
+    second: UIJAM_46
+  - first:
+      213: 5419404550002294371
+    second: UIJAM_47
+  - first:
+      213: -7396387401800482153
+    second: UIJAM_48
+  - first:
+      213: 3961809121179227059
+    second: UIJAM_49
+  - first:
+      213: 4150944312222427714
+    second: UIJAM_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIJAM_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1550
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cd48017f3d09270800000000000000
+      internalID: 8255331175057644668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1551
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e686cf7abbb7078f0800000000000000
+      internalID: -544799509004392338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1552
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeefff6b2f2218b0800000000000000
+      internalID: -5183028357540876563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1552
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ded55cbb6271e700800000000000000
+      internalID: 567860835072204500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_4
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1474
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e95368b7d256a30800000000000000
+      internalID: 4207819435403484783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_5
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1474
+        width: 63
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd2821298b1756c0800000000000000
+      internalID: -4154821855445242372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_6
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1473
+        width: 136
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94ccda87d5791620800000000000000
+      internalID: 2745355016467170459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1472
+        width: 228
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d201690dcc4b0c310800000000000000
+      internalID: 1423336274014900269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_8
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 1411
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88917fd8540393a0800000000000000
+      internalID: -6659974644198434673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_9
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1410
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b2cad26e415e630800000000000000
+      internalID: 3955590826556140440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_10
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 545
+        width: 295
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75c2970d38c634c0800000000000000
+      internalID: -4308035829087681154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_11
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1367
+        width: 345
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37a28c1d0cc5bf40800000000000000
+      internalID: 5743721256465901372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_12
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1253
+        width: 450
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047b94b16bc9e7420800000000000000
+      internalID: 2629711538386745152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_13
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1386
+        width: 140
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4896879643a9bf7f0800000000000000
+      internalID: -577698577288500860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_14
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1386
+        width: 105
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf849718026bd500800000000000000
+      internalID: 422038776984145854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_15
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1261
+        width: 464
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd1db5f8ca7aa880800000000000000
+      internalID: -8598925534975681088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_16
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1328
+        width: 120
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e59874f367f2c030800000000000000
+      internalID: 3513642667977774568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_17
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1328
+        width: 120
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ebdae02c4fa7ed0800000000000000
+      internalID: -2415349135823749596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_18
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1266
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d623934425e535020800000000000000
+      internalID: 2329309139705606765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_19
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1266
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038f001c9b03cc250800000000000000
+      internalID: 5966197180724213808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1046
+        width: 198
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25d2d9c4f17f22b0800000000000000
+      internalID: -5607137714880981714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_22
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1098
+        width: 464
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1e6744cbfa4b290800000000000000
+      internalID: -7875476625226800730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_23
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 968
+        width: 450
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e23bb03d49704fe0800000000000000
+      internalID: -1206831327698275611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_24
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1123
+        width: 116
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7682d41a726b500800000000000000
+      internalID: 411559989688690657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_25
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1124
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c62160736d75140800000000000000
+      internalID: 4708467467252558976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_26
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1124
+        width: 55
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785b3c92292405510800000000000000
+      internalID: 1535800668466689415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_27
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 1124
+        width: 37
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786b36a0568a3fd20800000000000000
+      internalID: 3311175302966916743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_30
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 888
+        width: 464
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd3bac00010c9a00800000000000000
+      internalID: 764487136470318527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_31
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1032
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f894da0a0763b7660800000000000000
+      internalID: 7384555871364008335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1043
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b938bcee5ebba30800000000000000
+      internalID: 4232229088624089957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_33
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1058
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31acde2e1e67bc70800000000000000
+      internalID: 8986772657355399487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_34
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1054
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a215e7951ef318390800000000000000
+      internalID: -7817897241036828374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_35
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1066
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014379e2d3d29ea40800000000000000
+      internalID: 5397895369178166288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_36
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1060
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf89f1a6aa171d0800000000000000
+      internalID: -3354712874640934166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_37
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1060
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eeeae08915400c0800000000000000
+      internalID: -4610470404997321091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_38
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1049
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c198abe30b8d8a0800000000000000
+      internalID: -6280075896904147870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_39
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 892
+        width: 197
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e5878331cbe0040800000000000000
+      internalID: 4615833458839150158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_41
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 891
+        width: 209
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d11c3e9e2789ce0800000000000000
+      internalID: -1398241335424508625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_47
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 680
+        width: 450
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eb50999b7953b40800000000000000
+      internalID: 5419404550002294371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_48
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 903
+        width: 184
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792028688d0ca5990800000000000000
+      internalID: -7396387401800482153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_49
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 105
+        width: 861
+        height: 719
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b35ac7b76c2bf630800000000000000
+      internalID: 3961809121179227059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIJAM_50
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 392
+        width: 450
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a227cfbdd1b9930800000000000000
+      internalID: 4150944312222427714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bb41b625cfedc0a45be9c9c8b0c8d002
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UIJAM_0: 8255331175057644668
+      UIJAM_1: -544799509004392338
+      UIJAM_10: -4308035829087681154
+      UIJAM_11: 5743721256465901372
+      UIJAM_12: 2629711538386745152
+      UIJAM_13: -577698577288500860
+      UIJAM_14: 422038776984145854
+      UIJAM_15: -8598925534975681088
+      UIJAM_16: 3513642667977774568
+      UIJAM_17: -2415349135823749596
+      UIJAM_18: 2329309139705606765
+      UIJAM_19: 5966197180724213808
+      UIJAM_2: -5183028357540876563
+      UIJAM_20: -5607137714880981714
+      UIJAM_21: -3378173391337919506
+      UIJAM_22: -7875476625226800730
+      UIJAM_23: -1206831327698275611
+      UIJAM_24: 411559989688690657
+      UIJAM_25: 4708467467252558976
+      UIJAM_26: 1535800668466689415
+      UIJAM_27: 3311175302966916743
+      UIJAM_28: 8621810229518273728
+      UIJAM_29: -717689927809622786
+      UIJAM_3: 567860835072204500
+      UIJAM_30: 764487136470318527
+      UIJAM_31: 7384555871364008335
+      UIJAM_32: 4232229088624089957
+      UIJAM_33: 8986772657355399487
+      UIJAM_34: -7817897241036828374
+      UIJAM_35: 5397895369178166288
+      UIJAM_36: -3354712874640934166
+      UIJAM_37: -4610470404997321091
+      UIJAM_38: -6280075896904147870
+      UIJAM_39: 4615833458839150158
+      UIJAM_4: 4207819435403484783
+      UIJAM_40: -3286008887545901867
+      UIJAM_41: -1398241335424508625
+      UIJAM_42: -1249211951584607508
+      UIJAM_43: -2020702051001413751
+      UIJAM_44: 386898362652818321
+      UIJAM_45: -7628028646597010305
+      UIJAM_46: 6540108799560120134
+      UIJAM_47: 5419404550002294371
+      UIJAM_48: -7396387401800482153
+      UIJAM_49: 3961809121179227059
+      UIJAM_5: -4154821855445242372
+      UIJAM_50: 4150944312222427714
+      UIJAM_6: 2745355016467170459
+      UIJAM_7: 1423336274014900269
+      UIJAM_8: -6659974644198434673
+      UIJAM_9: 3955590826556140440
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
