@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 2a426f3a59099dc41b9e644e6e94f95c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3165215894681624589
+    second: MenuGame 1_0
+  - first:
+      213: 7471579858624134158
+    second: MenuGame 1_1
+  - first:
+      213: -8208279207817865986
+    second: MenuGame 1_2
+  - first:
+      213: 7234799011089270904
+    second: MenuGame 1_3
+  - first:
+      213: -3861270617859379430
+    second: MenuGame 1_4
+  - first:
+      213: 3189653762490522286
+    second: MenuGame 1_5
+  - first:
+      213: 7924011785643056286
+    second: MenuGame 1_6
+  - first:
+      213: 2025055898116455171
+    second: MenuGame 1_7
+  - first:
+      213: 5336640580194320832
+    second: MenuGame 1_8
+  - first:
+      213: 5647110954553760829
+    second: MenuGame 1_9
+  - first:
+      213: 9196435593311470263
+    second: MenuGame 1_10
+  - first:
+      213: 1965079731424820785
+    second: MenuGame 1_11
+  - first:
+      213: 8245610268204338813
+    second: MenuGame 1_12
+  - first:
+      213: -6588384532895944865
+    second: MenuGame 1_13
+  - first:
+      213: -341574427080232190
+    second: MenuGame 1_14
+  - first:
+      213: -4496609409864533935
+    second: MenuGame 1_15
+  - first:
+      213: -7790221343521733598
+    second: MenuGame 1_16
+  - first:
+      213: 3579026757057397663
+    second: MenuGame 1_17
+  - first:
+      213: 8357305993109951218
+    second: MenuGame 1_18
+  - first:
+      213: -1751485638158131634
+    second: MenuGame 1_19
+  - first:
+      213: 6073407798163071290
+    second: MenuGame 1_20
+  - first:
+      213: 3254714897315146489
+    second: MenuGame 1_21
+  - first:
+      213: 824339959902750216
+    second: MenuGame 1_22
+  - first:
+      213: -309859093442909897
+    second: MenuGame 1_23
+  - first:
+      213: -28659045159815690
+    second: MenuGame 1_24
+  - first:
+      213: 3544002133228969451
+    second: MenuGame 1_25
+  - first:
+      213: -6472057337611251936
+    second: MenuGame 1_26
+  - first:
+      213: 4690136628543453262
+    second: MenuGame 1_27
+  - first:
+      213: 4980075242056064564
+    second: MenuGame 1_28
+  - first:
+      213: -2829715377213864339
+    second: MenuGame 1_29
+  - first:
+      213: -7260712039015786702
+    second: MenuGame 1_30
+  - first:
+      213: -6723275011076517805
+    second: MenuGame 1_31
+  - first:
+      213: -3130159339336487088
+    second: MenuGame 1_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MenuGame 1_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2716
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffd410f9e4e214d0800000000000000
+      internalID: -3165215894681624589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2716
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c31489b4260b760800000000000000
+      internalID: 7471579858624134158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_2
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 2716
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef49ac0cc85561e80800000000000000
+      internalID: -8208279207817865986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_3
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2715
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878c2557e5b276460800000000000000
+      internalID: 7234799011089270904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_4
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2727
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fa6d8b4d20a6ac0800000000000000
+      internalID: -3861270617859379430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_5
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2732
+        width: 332
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa5cbd823de34c20800000000000000
+      internalID: 3189653762490522286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2193
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c534f5cbeb7fd60800000000000000
+      internalID: 7924011785643056286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_7
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2193
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b7a813c917a1c10800000000000000
+      internalID: 2025055898116455171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_8
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 2193
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1ca6c355e8f0a40800000000000000
+      internalID: 5336640580194320832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_9
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2192
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cd4655e719e5e40800000000000000
+      internalID: 5647110954553760829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2193
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2c613827d40af70800000000000000
+      internalID: 9196435593311470263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_11
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2199
+        width: 332
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e75e2ba9d554b10800000000000000
+      internalID: 1965079731424820785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1670
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e02a01ada4e6270800000000000000
+      internalID: 8245610268204338813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1670
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f2f019c2b5194a0800000000000000
+      internalID: -6588384532895944865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_14
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1670
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20376894edb724bf0800000000000000
+      internalID: -341574427080232190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_15
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1669
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1587857d095d891c0800000000000000
+      internalID: -4496609409864533935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_16
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1669
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22488b166f293e390800000000000000
+      internalID: -7790221343521733598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_17
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1675
+        width: 332
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9346008fd14ba130800000000000000
+      internalID: 3579026757057397663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1147
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2df86958d1bf370800000000000000
+      internalID: 8357305993109951218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_19
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1147
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ed264871971b7e0800000000000000
+      internalID: -1751485638158131634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_20
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1147
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31e891d634194450800000000000000
+      internalID: 6073407798163071290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_21
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1147
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa24a374f11b2d20800000000000000
+      internalID: 3254714897315146489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_22
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1146
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806c92473d4a07b00800000000000000
+      internalID: 824339959902750216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_23
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 1152
+        width: 332
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73929e4dbc823bbf0800000000000000
+      internalID: -309859093442909897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 624
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5b5a110ce2a9ff0800000000000000
+      internalID: -28659045159815690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_25
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 624
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedd65ac923de2130800000000000000
+      internalID: 3544002133228969451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_26
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 624
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f88b15422ae26a0800000000000000
+      internalID: -6472057337611251936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_27
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 623
+        width: 333
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48716c0a66b61140800000000000000
+      internalID: 4690136628543453262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_28
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 624
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e187d0c08cc1540800000000000000
+      internalID: 4980075242056064564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_29
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 629
+        width: 332
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6605bd5bd4dab8d0800000000000000
+      internalID: -2829715377213864339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_30
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 101
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237df029ed4cc3b90800000000000000
+      internalID: -7260712039015786702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_31
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 101
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3501685bff022b2a0800000000000000
+      internalID: -6723275011076517805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuGame 1_32
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 101
+        width: 333
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f2a784aa07f84d0800000000000000
+      internalID: -3130159339336487088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 762f1392d4c345040b61a69cc1c95994
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MenuGame 1_0: -3165215894681624589
+      MenuGame 1_1: 7471579858624134158
+      MenuGame 1_10: 9196435593311470263
+      MenuGame 1_11: 1965079731424820785
+      MenuGame 1_12: 8245610268204338813
+      MenuGame 1_13: -6588384532895944865
+      MenuGame 1_14: -341574427080232190
+      MenuGame 1_15: -4496609409864533935
+      MenuGame 1_16: -7790221343521733598
+      MenuGame 1_17: 3579026757057397663
+      MenuGame 1_18: 8357305993109951218
+      MenuGame 1_19: -1751485638158131634
+      MenuGame 1_2: -8208279207817865986
+      MenuGame 1_20: 6073407798163071290
+      MenuGame 1_21: 3254714897315146489
+      MenuGame 1_22: 824339959902750216
+      MenuGame 1_23: -309859093442909897
+      MenuGame 1_24: -28659045159815690
+      MenuGame 1_25: 3544002133228969451
+      MenuGame 1_26: -6472057337611251936
+      MenuGame 1_27: 4690136628543453262
+      MenuGame 1_28: 4980075242056064564
+      MenuGame 1_29: -2829715377213864339
+      MenuGame 1_3: 7234799011089270904
+      MenuGame 1_30: -7260712039015786702
+      MenuGame 1_31: -6723275011076517805
+      MenuGame 1_32: -3130159339336487088
+      MenuGame 1_4: -3861270617859379430
+      MenuGame 1_5: 3189653762490522286
+      MenuGame 1_6: 7924011785643056286
+      MenuGame 1_7: 2025055898116455171
+      MenuGame 1_8: 5336640580194320832
+      MenuGame 1_9: 5647110954553760829
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

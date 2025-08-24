@@ -689,6 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravitatorLifeTime: {fileID: 7983683805607096377}
   objectToSpawnOnDestroy: {fileID: 2020974951102664298, guid: 790fc6e8baa322545b7738d2791c2030, type: 3}
+  loopSoundName: Extinguisher
 --- !u!212 &7595772359486783333
 SpriteRenderer:
   m_ObjectHideFlags: 0
