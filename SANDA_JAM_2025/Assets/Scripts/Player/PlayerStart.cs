@@ -8,7 +8,7 @@ public class PlayerStart : MonoBehaviour
     [SerializeField] private float maxAngularSpeed = 180f;
     [SerializeField] private GameObject winZone;
     [SerializeField] private Animator hamsterAnimator;
-    [SerializeField] private string collisionSoundName = "HamsterHit"; // Set this to the clip name in SoundFXManager
+    // Set this to the clip name in SoundFXManager
 
     private Rigidbody2D rb;
     private bool goalAnimationStarted = false;
@@ -52,6 +52,6 @@ public class PlayerStart : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Play sound when colliding with any object
-        SoundFXManager.instance.PlaySoundByName(collisionSoundName, transform);
+        SoundFXManager.instance.PlaySoundByName("Bounce", transform);
     }
 }

@@ -22,7 +22,7 @@ public class DestroyGravitator : MonoBehaviour
         // Start looping sound
         if (!soundPlaying)
         {
-            SoundFXManager.instance.PlaySoundByName(loopSoundName, transform, volume: 1f, pitch: 0.4f, loop: true);
+            SoundFXManager.instance.PlaySoundByName(loopSoundName, transform, volume: 0.2f, pitch: 0.4f, loop: true);
             soundPlaying = true;
         }
 

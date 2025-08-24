@@ -354,7 +354,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -2
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.2784314}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.11764706}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -717,6 +717,7 @@ GameObject:
   - component: {fileID: 7595772359486783333}
   - component: {fileID: 4279755090544858759}
   - component: {fileID: 2946458684632389009}
+  - component: {fileID: 6411189741300748090}
   m_Layer: 0
   m_Name: NormalAttractor
   m_TagString: Untagged
@@ -777,7 +778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravitatorLifeTime: {fileID: 7983683805607096377}
   objectToSpawnOnDestroy: {fileID: 2020974951102664298, guid: 790fc6e8baa322545b7738d2791c2030, type: 3}
-  loopSoundName: Extinguisher
+  loopSoundName: Extinguisher2
 --- !u!212 &7595772359486783333
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -906,6 +907,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &6411189741300748090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8694148226940804890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4311f9dd26f5d494cafed6579876ab2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 180
 --- !u!1001 &3051307547449762829
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -306,7 +306,7 @@ MonoBehaviour:
   maxAngularSpeed: 180
   winZone: {fileID: 1360322206}
   hamsterAnimator: {fileID: 15513948}
-  collisionSoundName: HamsterHit
+  collisionSoundName: Bounce
 --- !u!95 &15513948
 Animator:
   serializedVersion: 7
@@ -10361,13 +10361,16 @@ MonoBehaviour:
   soundFXPrefab: {fileID: 2539136261488897876, guid: cb0cbcff72a407648ab59032882fca83, type: 3}
   soundFXClips:
   - {fileID: 8300000, guid: d3c7d1c8cd91d654691e932038648d13, type: 3}
-  - {fileID: 8300000, guid: ceeb4077473fabc46aa21bf0a7717ad2, type: 3}
+  - {fileID: 8300000, guid: d1778557ae0a7674f8b684f0ae38b22c, type: 3}
   - {fileID: 8300000, guid: 6b992a6a8e183d7468c9563f81f21c55, type: 3}
   - {fileID: 8300000, guid: 4e18ed36a897d734b919404522976dd2, type: 3}
-  - {fileID: 8300000, guid: fbecad7ae1fb3e9428f81b98bc239fde, type: 3}
+  - {fileID: 8300000, guid: 5c499c4ff7196ea489ef190191853be3, type: 3}
   - {fileID: 8300000, guid: 70fb6303c0816384097f08804724332c, type: 3}
   - {fileID: 8300000, guid: 1a32009d186f18046ba0ae43d768e58a, type: 3}
   - {fileID: 8300000, guid: d8028cb0098d5b84db186478856b6330, type: 3}
+  - {fileID: 8300000, guid: 1137ca0b8ad60dd46aa2b0e119706d38, type: 3}
+  - {fileID: 8300000, guid: 84ff9d7c7bd15ce41b9e6dae0ee0eff8, type: 3}
+  - {fileID: 8300000, guid: 506b00b319b94ab428d20fb428e39675, type: 3}
 --- !u!1 &972660874
 GameObject:
   m_ObjectHideFlags: 0
