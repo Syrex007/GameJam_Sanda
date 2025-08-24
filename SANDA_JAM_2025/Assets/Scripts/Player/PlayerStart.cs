@@ -1,11 +1,12 @@
 using UnityEngine;
-using DG.Tweening; // DOTween namespace
+using DG.Tweening;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerStart : MonoBehaviour
 {
     [SerializeField] private float minAngularSpeed = -180f;
     [SerializeField] private float maxAngularSpeed = 180f;
+    [SerializeField] private GameObject winZone;
 
     private Rigidbody2D rb;
     private bool goalAnimationStarted = false;
@@ -28,16 +29,19 @@ public class PlayerStart : MonoBehaviour
         {
             goalAnimationStarted = true;
 
-            
-            rb.angularVelocity = 0f;
+            // Stop physics simulation before tweening
             rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
             rb.simulated = false;
 
-            // Begin scale and rotation tween
-            transform.DOScale(Vector3.zero, 1f).SetEase(Ease.Linear);
-            transform.DORotate(new Vector3(0, 0, 1000f), 1f, RotateMode.FastBeyond360)
-                     .SetEase(Ease.Linear)
-                     .SetLoops(-1, LoopType.Incremental); 
+            // Move to win zone with DOTween, then scale down and rotate
+            transform.DOMove(winZone.transform.position, 0.3f).SetEase(Ease.Linear).OnComplete(() =>
+            {
+                transform.DOScale(Vector3.zero, 1f).SetEase(Ease.Linear);
+                transform.DORotate(new Vector3(0, 0, 1000f), 1f, RotateMode.FastBeyond360)
+                         .SetEase(Ease.Linear)
+                         .SetLoops(-1, LoopType.Incremental);
+            });
         }
     }
 }
