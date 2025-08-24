@@ -5678,6 +5678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294608100}
+  - component: {fileID: 294608101}
   m_Layer: 0
   m_Name: ---MANAGERS---
   m_TagString: Untagged
@@ -5700,6 +5701,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294608101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294608099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c610ff387777694b8d5a0573c2453b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &323569650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7162,6 +7175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f28cd1da6511f0468f69cc7ed3ad188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelIndex: 0
   transitionCanvas: {fileID: 605922982}
   itemManager: {fileID: 183067159}
   requiredHoldTime: 1
