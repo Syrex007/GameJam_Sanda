@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         this.currentLevel = currentLevel + 1;
         print(this.currentLevel);
-        if (this.currentLevel == 2) //si es el último nivel
+        if (this.currentLevel == 2) //si es el ï¿½ltimo nivel
         {
             HighScore();
         }
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
 
         int minutes = totalMilliseconds / 60000;
         int seconds = (totalMilliseconds % 60000) / 1000;
-        int milliseconds = (totalMilliseconds % 1000) / 10; // centésimas (2 dígitos)
+        int milliseconds = (totalMilliseconds % 1000) / 10; // centï¿½simas (2 dï¿½gitos)
 
         string formattedTime = string.Format("{0:D2}:{1:D2}:{2:D2}", minutes, seconds, milliseconds);
         Debug.Log("Tiempo total: " + formattedTime);

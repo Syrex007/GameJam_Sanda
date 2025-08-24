@@ -5,7 +5,7 @@ using System;
 
 public class LevelManager : MonoBehaviour
 {
-    private int levelIndex = 0; 
+    [SerializeField] private int levelIndex = 0; 
 
     [SerializeField] private GameObject transitionCanvas;
     private UI_TransitionCanvas transitionCanvasScript;
@@ -168,7 +168,27 @@ public class LevelManager : MonoBehaviour
     public void LoadNextLevel() {
         GameManager.instance.goalReached = false;
         //cambiar para mas escenas
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
+    // Obtenemos el índice de la escena actual
+    int currentIndex = SceneManager.GetActiveScene().buildIndex;
+
+    // Obtenemos cuántas escenas hay en Build Settings
+    int totalScenes = SceneManager.sceneCountInBuildSettings;
+
+    // Verificamos si hay un nivel siguiente disponible
+    if (currentIndex + 1 < totalScenes)
+    {
+        // Cargar siguiente nivel
+        SceneManager.LoadScene(currentIndex + 1);
+    }
+    else
+    {
+        // Si estamos en el último nivel, mostramos mensaje y no hacemos nada más
+        Debug.Log("¡Felicidades! Has completado todos los niveles.");
+        
+        // Opcional: podrías reiniciar desde la primera escena
+        // SceneManager.LoadScene(0);
+    }
     }
     private int CalculateStarRating()
     {
