@@ -171,6 +171,7 @@ public class LevelManager : MonoBehaviour
         SoundFXManager.instance.StopSoundByName("Item2");
         SoundFXManager.instance.StopSoundByName("Item3");
         SoundFXManager.instance.StopSoundByName("Extinguisher");
+        SoundFXManager.instance.StopSoundByName("Extinguisher2");
         //cambiar para mas escenas
 
         // Obtenemos el índice de la escena actual

@@ -31,9 +31,11 @@ public class UI_Player : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
 
-        // Play squeak sound on click
-        SoundFXManager.instance.PlaySoundByName("Squeak", transform);
+        // Play squeak sound with 1/10 chance
+        string soundToPlay = Random.Range(0, 10) == 0 ? "Squeak2" : "Squeak";
+        SoundFXManager.instance.PlaySoundByName(soundToPlay, transform);
     }
+
 
     void OnMouseDrag()
     {
@@ -80,6 +82,6 @@ public class UI_Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SoundFXManager.instance.PlaySoundByName("HamsterHit", transform);
+        SoundFXManager.instance.PlaySoundByName("Bounce2", transform);
     }
 }
