@@ -6675,7 +6675,7 @@ MonoBehaviour:
   elapsedTime: 0
   currentStars: 0
   timeStarsThreshold: 25
-  objectStarsThreshold: 2
+  objectStarsThreshold: 3
   endResultsUI: {fileID: 806140404}
   starTimeText: {fileID: 926244617}
   starItemsText: {fileID: 483210119}
