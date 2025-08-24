@@ -28,9 +28,11 @@ public class UI_Player : MonoBehaviour
         dragStartTime = Time.time;
 
         // Stop movement but retain rotation
-        rb.linearVelocity = Vector2.zero;
-       
-        rb.gravityScale = 0f; // optional if you want to ignore gravity while dragging
+        rb.velocity = Vector2.zero;
+        rb.gravityScale = 0f;
+
+        // Play squeak sound on click
+        SoundFXManager.instance.PlaySoundByName("Squeak", transform);
     }
 
     void OnMouseDrag()
@@ -38,7 +40,7 @@ public class UI_Player : MonoBehaviour
         if (isDragging)
         {
             Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            rb.MovePosition(mousePos); // Physics-safe way to move object
+            rb.MovePosition(mousePos);
         }
     }
 
@@ -50,22 +52,18 @@ public class UI_Player : MonoBehaviour
         float dragDuration = Time.time - dragStartTime;
         Vector2 dragEndPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        rb.gravityScale = 0f; // Reset gravity if you're using it
+        rb.gravityScale = 0f;
 
         if (dragDuration <= 0.1f)
         {
-            // Quick tap — reapply random movement and rotation
             ApplyRandomMotion();
         }
         else
         {
-            // Drag and release — apply throw velocity based on drag
             Vector2 throwDirection = (dragEndPos - dragStartPos).normalized;
             float throwStrength = Vector2.Distance(dragEndPos, dragStartPos) / dragDuration;
 
-            rb.linearVelocity = throwDirection * throwStrength;
-
-            // Keep existing angularVelocity — don't change rotation
+            rb.velocity = throwDirection * throwStrength;
         }
     }
 
@@ -77,6 +75,11 @@ public class UI_Player : MonoBehaviour
 
         Vector2 moveDirection = Random.insideUnitCircle.normalized;
         float moveSpeed = Random.Range(minMoveSpeed, maxMoveSpeed);
-        rb.linearVelocity = moveDirection * moveSpeed;
+        rb.velocity = moveDirection * moveSpeed;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        SoundFXManager.instance.PlaySoundByName("HamsterHit", transform);
     }
 }
