@@ -304,6 +304,8 @@ MonoBehaviour:
   minAngularSpeed: -180
   maxAngularSpeed: 180
   winZone: {fileID: 1360322206}
+  hamsterAnimator: {fileID: 0}
+  collisionSoundName: HamsterHit
 --- !u!1 &46169176
 GameObject:
   m_ObjectHideFlags: 0
@@ -10001,7 +10003,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: -10
   m_Sprite: {fileID: 4254267523363767243, guid: 55865ad615f25284ca444dd7a6c93694, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11681,7 +11683,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
