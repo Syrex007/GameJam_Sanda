@@ -28,7 +28,7 @@ public class UI_Player : MonoBehaviour
         dragStartTime = Time.time;
 
         // Stop movement but retain rotation
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
 
         // Play squeak sound on click
@@ -63,7 +63,7 @@ public class UI_Player : MonoBehaviour
             Vector2 throwDirection = (dragEndPos - dragStartPos).normalized;
             float throwStrength = Vector2.Distance(dragEndPos, dragStartPos) / dragDuration;
 
-            rb.velocity = throwDirection * throwStrength;
+            rb.linearVelocity = throwDirection * throwStrength;
         }
     }
 
@@ -75,7 +75,7 @@ public class UI_Player : MonoBehaviour
 
         Vector2 moveDirection = Random.insideUnitCircle.normalized;
         float moveSpeed = Random.Range(minMoveSpeed, maxMoveSpeed);
-        rb.velocity = moveDirection * moveSpeed;
+        rb.linearVelocity = moveDirection * moveSpeed;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
