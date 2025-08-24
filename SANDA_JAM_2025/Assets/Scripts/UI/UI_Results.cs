@@ -16,6 +16,13 @@ public class UI_Results : MonoBehaviour
 
     [SerializeField] private float startPosY = 300f;
 
+    [Header("Star Sound Names")]
+    [SerializeField] private string oneStarSfx = "StarSfx1";
+    [SerializeField] private string twoStarSfx = "StarSfx2";
+    [SerializeField] private string threeStarSfx = "StarSfx3";
+
+    private bool soundsPlayed = false;
+
     void Start() { }
 
     private void OnEnable()
@@ -31,12 +38,16 @@ public class UI_Results : MonoBehaviour
             duration: 0.5f,
             ease: Ease.OutCubic
         );
+
+        soundsPlayed = false; // Reset
     }
 
     void Update()
     {
-        if (GameManager.instance.goalReached)
+        if (GameManager.instance.goalReached && !soundsPlayed)
         {
+            soundsPlayed = true;
+
             stars = levelManager.currentStars;
             timeTaken = levelManager.elapsedTime;
 
@@ -48,9 +59,26 @@ public class UI_Results : MonoBehaviour
 
             // Update star fills
             for (int i = 0; i < starFills.Length; i++)
-            {
                 starFills[i].SetActive(i < stars);
-            }
+
+            // Play correct SFX
+            PlayStarSound(stars);
+        }
+    }
+
+    private void PlayStarSound(int count)
+    {
+        string clipName = count switch
+        {
+            1 => oneStarSfx,
+            2 => twoStarSfx,
+            3 => threeStarSfx,
+            _ => null
+        };
+
+        if (!string.IsNullOrEmpty(clipName))
+        {
+            SoundFXManager.instance.PlaySoundByName(clipName, transform);
         }
     }
 }

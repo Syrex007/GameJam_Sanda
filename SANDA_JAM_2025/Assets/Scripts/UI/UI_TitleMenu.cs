@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UI_TitleMenu : MonoBehaviour
 {
@@ -8,5 +9,10 @@ public class UI_TitleMenu : MonoBehaviour
     {
         tweenEffects = GetComponent<UI_TweenEffects>();
         tweenEffects.PlayFloatEffect();
+    }
+
+    public void goToLevel()
+    {
+        SceneManager.LoadScene("Nivel_0");
     }
 }

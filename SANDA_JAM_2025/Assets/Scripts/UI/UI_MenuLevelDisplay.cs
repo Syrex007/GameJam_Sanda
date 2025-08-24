@@ -28,6 +28,6 @@ public class UI_MenuLevelDisplay : MonoBehaviour
 
     public void goToLevel()
     {
-        SceneManager.LoadScene("Level" + levelIndex);
+        SceneManager.LoadScene("Nivel_" + levelIndex);
     }
 }
