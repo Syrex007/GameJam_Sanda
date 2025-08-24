@@ -64,19 +64,25 @@ public class GameManager : MonoBehaviour
     }
     void HighScore()
     {
-        //muestra canvas con los tiempos logrados 
-        //se envía un link a una página para guardar los tiempos y estrellas recoleccionadas y obtener listado
-        int minutos = Mathf.FloorToInt(tiempoTotal / 60f);
-        int segundos = Mathf.FloorToInt(tiempoTotal % 60f);
-        print("Tiempo:" + minutos +":"+ segundos);
-        print($"Tiempo total: {minutos:D2}:{segundos:D2}");
+        calcularTiempoTotal();
 
+        int totalMilliseconds = Mathf.FloorToInt(tiempoTotal * 1000f); // convertir a milisegundos
+
+        int minutes = totalMilliseconds / 60000;
+        int seconds = (totalMilliseconds % 60000) / 1000;
+        int milliseconds = (totalMilliseconds % 1000) / 10; // centésimas (2 dígitos)
+
+        string formattedTime = string.Format("{0:D2}:{1:D2}:{2:D2}", minutes, seconds, milliseconds);
+        Debug.Log("Tiempo total: " + formattedTime);
     }
-    void calcularTiempoTotal()
+
+    public void calcularTiempoTotal()
     {
-        for(int i =0; i< times.Length; i++)
+        tiempoTotal = 0f;
+        for (int i = 0; i < times.Length; i++)
         {
-            tiempoTotal= +times[i];
+            tiempoTotal += times[i];
         }
     }
+
 }
