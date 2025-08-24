@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 15513942}
   - component: {fileID: 15513946}
   - component: {fileID: 15513947}
+  - component: {fileID: 15513948}
   m_Layer: 3
   m_Name: Player_Placeholder
   m_TagString: Player
@@ -301,11 +302,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bacb91a8805b9f4fb4288640b1c947c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minAngularSpeed: -180
-  maxAngularSpeed: 180
+  minAngularSpeed: 1000
+  maxAngularSpeed: 1000
   winZone: {fileID: 1360322206}
-  hamsterAnimator: {fileID: 0}
+  hamsterAnimator: {fileID: 15513948}
   collisionSoundName: HamsterHit
+--- !u!95 &15513948
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15513941}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7dd72930a670e9a47b7a8ccac1470a4f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &46169176
 GameObject:
   m_ObjectHideFlags: 0
@@ -11832,7 +11855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 101.5, y: -465.2883}
+  m_AnchoredPosition: {x: 101.5, y: -465.28833}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1574272990
@@ -13613,7 +13636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 77.94006, y: -79.19998}
+  m_AnchoredPosition: {x: 77.94008, y: -79.19998}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673100995
@@ -15163,7 +15186,11 @@ MonoBehaviour:
   forceAmount: 2
   particleRate: 200
   rb: {fileID: 15513942}
+  rbSelf: {fileID: 0}
   jetpackParticles: {fileID: 1127752903}
+  fuelSlider: {fileID: 0}
+  jetpackSoundName: Extinguisher
+  detachSoundName: Detach
 --- !u!1 &2067395630
 GameObject:
   m_ObjectHideFlags: 0
