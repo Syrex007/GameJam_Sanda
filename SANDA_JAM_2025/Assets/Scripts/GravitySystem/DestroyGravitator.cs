@@ -5,9 +5,11 @@ using UnityEngine.UI;
 public class DestroyGravitator : MonoBehaviour
 {
     [SerializeField] private Slider gravitatorLifeTime;
-    [SerializeField] private GameObject objectToSpawnOnDestroy; // Prefab to instantiate
+    [SerializeField] private GameObject objectToSpawnOnDestroy;
+    [SerializeField] private string loopSoundName = "GravitatorLoop"; // Name of the sound
 
     private Coroutine destroyCoroutine;
+    private bool soundPlaying = false;
 
     public void DestroySelf(float time)
     {
@@ -16,6 +18,13 @@ public class DestroyGravitator : MonoBehaviour
 
         if (destroyCoroutine != null)
             StopCoroutine(destroyCoroutine);
+
+        // Start looping sound
+        if (!soundPlaying)
+        {
+            SoundFXManager.instance.PlaySoundByName(loopSoundName, transform, volume: 1f, pitch: 0.4f, loop: true);
+            soundPlaying = true;
+        }
 
         destroyCoroutine = StartCoroutine(DestroyAfterTime(time));
     }
@@ -34,7 +43,14 @@ public class DestroyGravitator : MonoBehaviour
         gravitatorLifeTime.value = 0;
         Debug.Log("Me voy a destruir");
 
-        // Instantiate the new object at this position and rotation
+        // Stop looping sound
+        if (soundPlaying)
+        {
+            SoundFXManager.instance.StopSoundByName(loopSoundName);
+            soundPlaying = false;
+        }
+
+        // Spawn object on destroy
         if (objectToSpawnOnDestroy != null)
         {
             Instantiate(objectToSpawnOnDestroy, transform.position, transform.rotation);

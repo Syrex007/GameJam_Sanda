@@ -7921,6 +7921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f28cd1da6511f0468f69cc7ed3ad188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelIndex: 0
   transitionCanvas: {fileID: 605922982}
   itemManager: {fileID: 183067159}
   requiredHoldTime: 1
@@ -10246,12 +10247,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundFXPrefab: {fileID: 2539136261488897876, guid: cb0cbcff72a407648ab59032882fca83, type: 3}
   soundFXClips:
-  - {fileID: 8300000, guid: 7c296aafc570d8d408cb5cf3938354c4, type: 3}
+  - {fileID: 8300000, guid: d3c7d1c8cd91d654691e932038648d13, type: 3}
   - {fileID: 8300000, guid: ceeb4077473fabc46aa21bf0a7717ad2, type: 3}
   - {fileID: 8300000, guid: 6b992a6a8e183d7468c9563f81f21c55, type: 3}
   - {fileID: 8300000, guid: 4e18ed36a897d734b919404522976dd2, type: 3}
   - {fileID: 8300000, guid: fbecad7ae1fb3e9428f81b98bc239fde, type: 3}
   - {fileID: 8300000, guid: 70fb6303c0816384097f08804724332c, type: 3}
+  - {fileID: 8300000, guid: 1a32009d186f18046ba0ae43d768e58a, type: 3}
 --- !u!1 &972660874
 GameObject:
   m_ObjectHideFlags: 0
@@ -11210,7 +11212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1309797238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11254,7 +11256,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -12
   m_Sprite: {fileID: 4254267523363767243, guid: 55865ad615f25284ca444dd7a6c93694, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

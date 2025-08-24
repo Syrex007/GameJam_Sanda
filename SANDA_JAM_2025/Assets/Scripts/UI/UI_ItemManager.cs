@@ -57,7 +57,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
                 {
                     SelectItem(item.itemIndex);
                     item.SelectAnimation();
-                    SoundFXManager.instance.PlaySoundByName("Damage1", gameObject.transform);
+                    
 
                     if (item.activeItem)
                     {
@@ -83,12 +83,14 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
 
     public void SelectItem(int index)
     {
+        SoundFXManager.instance.PlaySoundByName("Select", gameObject.transform);
         selectedItemIndex = index;
         UpdateCursorFollower();
     }
 
     public void DeselectItem()
     {
+        SoundFXManager.instance.PlaySoundByName("Deselect", gameObject.transform);
         selectedItemIndex = -1;
         cursorFollower.Hide();
     }

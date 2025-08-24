@@ -5,7 +5,7 @@ using System;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] private int levelIndex = 0; 
+    [SerializeField]private int levelIndex = 0; 
 
     [SerializeField] private GameObject transitionCanvas;
     private UI_TransitionCanvas transitionCanvasScript;
