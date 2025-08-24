@@ -247,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 15513941}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.7, y: -2.14, z: 0}
+  m_LocalPosition: {x: 4.38, y: -0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10367,6 +10367,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fbecad7ae1fb3e9428f81b98bc239fde, type: 3}
   - {fileID: 8300000, guid: 70fb6303c0816384097f08804724332c, type: 3}
   - {fileID: 8300000, guid: 1a32009d186f18046ba0ae43d768e58a, type: 3}
+  - {fileID: 8300000, guid: d8028cb0098d5b84db186478856b6330, type: 3}
 --- !u!1 &972660874
 GameObject:
   m_ObjectHideFlags: 0
@@ -11783,7 +11784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bdc847723d029a4681899398d7dad6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalSfxName: Detach
+  goalSfxName: Suck
 --- !u!50 &1360322212
 Rigidbody2D:
   serializedVersion: 5
