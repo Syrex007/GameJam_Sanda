@@ -15,6 +15,7 @@ public class ChangeToMenu : MonoBehaviour
         SoundFXManager.instance.StopSoundByName("Extinguisher");
         SoundFXManager.instance.StopSoundByName("Tema1");
         SoundFXManager.instance.StopSoundByName("Tema2");
+        SoundFXManager.instance.StopSoundByName("TemaMenu");
 
         SceneManager.LoadScene(0);
     }
