@@ -10696,9 +10696,6 @@ MonoBehaviour:
   starFills: []
   timeText: {fileID: 1642227266}
   startPosY: 1000
-  oneStarSfx: StarSfx1
-  twoStarSfx: StarSfx2
-  threeStarSfx: StarSfx3
 --- !u!1 &813104572
 GameObject:
   m_ObjectHideFlags: 0
@@ -18358,6 +18355,7 @@ GameObject:
   - component: {fileID: 1466142646}
   - component: {fileID: 1466142648}
   - component: {fileID: 1466142647}
+  - component: {fileID: 1466142649}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -18483,6 +18481,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466142645}
   m_CullTransparentMesh: 1
+--- !u!114 &1466142649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466142645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e18274b8b486c14a91c1075d90c6c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1468939106
 GameObject:
   m_ObjectHideFlags: 0
@@ -23862,6 +23872,7 @@ GameObject:
   - component: {fileID: 1904054179}
   - component: {fileID: 1904054183}
   - component: {fileID: 1904054182}
+  - component: {fileID: 1904054184}
   m_Layer: 5
   m_Name: ButtonCredits
   m_TagString: Untagged
@@ -23932,7 +23943,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1904054180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1904054184}
+        m_TargetAssemblyTypeName: Gocredits, Assembly-CSharp
+        m_MethodName: GoToCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1904054180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23993,6 +24016,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f829922360d76fd4aac8507c8e1b4230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1904054184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904054177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e18274b8b486c14a91c1075d90c6c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1907048776
