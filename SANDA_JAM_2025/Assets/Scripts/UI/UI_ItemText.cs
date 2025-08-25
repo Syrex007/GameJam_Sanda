@@ -1,5 +1,4 @@
 using TMPro;
-using UnityEditor.UIElements;
 using UnityEngine;
 
 public class UI_ItemText : MonoBehaviour
