@@ -16,10 +16,7 @@ public class UI_Results : MonoBehaviour
 
     [SerializeField] private float startPosY = 300f;
 
-    [Header("Star Sound Names")]
-    [SerializeField] private string oneStarSfx = "StarSfx1";
-    [SerializeField] private string twoStarSfx = "StarSfx2";
-    [SerializeField] private string threeStarSfx = "StarSfx3";
+    
 
     private bool soundsPlayed = false;
 
@@ -70,9 +67,9 @@ public class UI_Results : MonoBehaviour
     {
         string clipName = count switch
         {
-            1 => oneStarSfx,
-            2 => twoStarSfx,
-            3 => threeStarSfx,
+            1 => "1Star",
+            2 => "ESTRELLA 2",
+            3 => "3Star",
             _ => null
         };
 
