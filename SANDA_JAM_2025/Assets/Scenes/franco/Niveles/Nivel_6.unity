@@ -5557,13 +5557,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7316794253555414062, guid: 5d153544a0abd404f8889c1e05caec2e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7853659789943243045, guid: 5d153544a0abd404f8889c1e05caec2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.63
       objectReference: {fileID: 0}
     - target: {fileID: 7853659789943243045, guid: 5d153544a0abd404f8889c1e05caec2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.88
+      value: 3.41
       objectReference: {fileID: 0}
     - target: {fileID: 7853659789943243045, guid: 5d153544a0abd404f8889c1e05caec2e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8477,9 +8481,6 @@ MonoBehaviour:
   - {fileID: 552132795}
   timeText: {fileID: 1642227266}
   startPosY: 1000
-  oneStarSfx: StarSfx1
-  twoStarSfx: StarSfx2
-  threeStarSfx: StarSfx3
 --- !u!1 &811619703
 GameObject:
   m_ObjectHideFlags: 0
