@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Julio/JulioSceneMenu2.unity
     guid: 859a878f8a87c09468c6d3c79a8b72d2
   - enabled: 1
-    path: Assets/Scenes/bnyhamin/Credits.unity
-    guid: bad0dcfafbef86442a00e8efb1179e09
-  - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_0.unity
     guid: 9d15fa209031c3f4ca29e924a49439a3
   - enabled: 1
@@ -44,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_9.unity
     guid: 49592acf29df8df4994cc6a626a71a9d
+  - enabled: 1
+    path: Assets/Scenes/bnyhamin/Credits.unity
+    guid: bad0dcfafbef86442a00e8efb1179e09
   - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_10.unity
     guid: a564be16c46c56a4c9265da75b96d883
