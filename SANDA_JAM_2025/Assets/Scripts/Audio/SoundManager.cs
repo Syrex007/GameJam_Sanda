@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SoundFXManager : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class SoundFXManager : MonoBehaviour
     private Dictionary<string, Queue<AudioSource>> audioSourcePool;
     private Dictionary<string, List<AudioSource>> activeSources;
     private Transform soundParent;
+
+    public AudioMixerGroup mixerMusic;
+    public AudioMixerGroup mixerSFX;
 
     private void Awake()
     {
@@ -46,7 +50,7 @@ public class SoundFXManager : MonoBehaviour
         }
     }
 
-    public void PlaySoundByName(string clipName, Transform spawnTransform, float volume = 1f, float pitch = 1f, bool loop = false)
+    public void PlaySoundByName(string clipName, Transform spawnTransform, float volume = 1f, float pitch = 1f, bool loop = false, bool fgSFX = true)
     {
         if (!clipLookup.TryGetValue(clipName, out AudioClip clipToPlay))
         {
@@ -58,6 +62,7 @@ public class SoundFXManager : MonoBehaviour
         if (source == null) return;
 
         source.clip = clipToPlay;
+        source.outputAudioMixerGroup = fgSFX ? mixerSFX : mixerMusic;
         source.volume = volume;
         source.pitch = pitch;
         source.loop = loop;

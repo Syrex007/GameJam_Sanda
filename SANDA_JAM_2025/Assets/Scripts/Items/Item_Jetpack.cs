@@ -39,7 +39,7 @@ public class Item_Jetpack : MonoBehaviour
 
         if (!soundPlaying)
         {
-            SoundFXManager.instance.PlaySoundByName(jetpackSoundName, transform, volume: 1f, pitch: 1f, loop: true);
+            SoundFXManager.instance.PlaySoundByName(jetpackSoundName, transform, volume: 1f, pitch: 1f, loop: true, true);
             soundPlaying = true;
         }
     }

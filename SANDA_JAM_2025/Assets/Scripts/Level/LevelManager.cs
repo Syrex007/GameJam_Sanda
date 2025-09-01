@@ -43,7 +43,7 @@ public class LevelManager : MonoBehaviour
     {
         if (!SoundFXManager.instance.IsSoundPlaying("Tema2"))
         {
-            SoundFXManager.instance.PlaySoundByName("Tema2", gameObject.transform,1f, 1f, true);
+            SoundFXManager.instance.PlaySoundByName("Tema2", gameObject.transform,1f, 1f, true, false);
         }
             
 
