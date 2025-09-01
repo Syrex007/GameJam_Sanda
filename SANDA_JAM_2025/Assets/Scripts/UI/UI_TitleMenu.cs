@@ -11,7 +11,8 @@ public class UI_TitleMenu : MonoBehaviour
     {
         tweenEffects = GetComponent<UI_TweenEffects>();
         tweenEffects.PlayFloatEffect();
-        SoundFXManager.instance.PlaySoundByName("TemaMenu", transform);
+        //SoundFXManager.instance.PlaySoundByName("TemaMenu", transform);
+        SoundFXManager.instance.PlaySoundByName("TemaMenu", transform,1f, 1f, true, false);
     }
 
     public void goToLevel()
