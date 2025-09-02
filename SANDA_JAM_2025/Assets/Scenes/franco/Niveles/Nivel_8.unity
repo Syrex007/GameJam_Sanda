@@ -11309,8 +11309,13 @@ MonoBehaviour:
   isGamePaused: 0
   currentLevel: 0
   goalReached: 0
-  stars: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  stars: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   times:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   - 0
   - 0
   - 0
@@ -13564,7 +13569,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 77.94005, y: -79.19998}
+  m_AnchoredPosition: {x: 77.94006, y: -79.19998}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673100995
