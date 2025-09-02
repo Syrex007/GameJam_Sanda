@@ -190,4 +190,38 @@ public class SoundFXManager : MonoBehaviour
         }
         return false;
     }
+
+    public void StopAllSounds()
+{
+    // Recorremos todos los clips activos y detenemos sus audios
+    foreach (var kvp in activeSources)
+    {
+        string clipName = kvp.Key;
+        List<AudioSource> sources = kvp.Value;
+
+        for (int i = sources.Count - 1; i >= 0; i--)
+        {
+            AudioSource source = sources[i];
+            if (source != null && source.gameObject)
+            {
+                source.Stop();
+                source.loop = false;
+                source.gameObject.SetActive(false);
+
+                // Enviamos el AudioSource de vuelta al pool
+                if (!audioSourcePool.ContainsKey(clipName))
+                    audioSourcePool[clipName] = new Queue<AudioSource>();
+
+                audioSourcePool[clipName].Enqueue(source);
+            }
+        }
+
+        // Limpiamos la lista de fuentes activas
+        sources.Clear();
+    }
+
+    // Aseguramos que no quede nada sonando
+    activeSources.Clear();
+}
+
 }

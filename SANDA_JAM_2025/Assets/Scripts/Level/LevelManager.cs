@@ -5,7 +5,7 @@ using System;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField]private int levelIndex = 0; 
+    [SerializeField] private int levelIndex = 0; 
 
     [SerializeField] private GameObject transitionCanvas;
     private UI_TransitionCanvas transitionCanvasScript;
@@ -39,11 +39,12 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private TMP_Text starTimeText;
     [SerializeField] private TMP_Text starItemsText;
 
+
     void Start()
     {
         if (!SoundFXManager.instance.IsSoundPlaying("Tema2"))
         {
-            SoundFXManager.instance.PlaySoundByName("Tema2", gameObject.transform,1f, 1f, true, false);
+            SoundFXManager.instance.PlaySoundByName("Tema2", gameObject.transform,1f, 1f, true);
         }
             
 
@@ -103,6 +104,7 @@ public class LevelManager : MonoBehaviour
             if (holdTime >= requiredHoldTime)
             {
                 isHoldingR = false;
+                                SoundFXManager.instance.StopAllSounds();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
@@ -167,15 +169,10 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNextLevel() {
         GameManager.instance.goalReached = false;
-        SoundFXManager.instance.StopSoundByName("Item1");
-        SoundFXManager.instance.StopSoundByName("Item2");
-        SoundFXManager.instance.StopSoundByName("Item3");
-        SoundFXManager.instance.StopSoundByName("Extinguisher");
-        SoundFXManager.instance.StopSoundByName("Extinguisher2");
         //cambiar para mas escenas
-
-        // Obtenemos el índice de la escena actual
-        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        
+    // Obtenemos el índice de la escena actual
+    int currentIndex = SceneManager.GetActiveScene().buildIndex;
 
     // Obtenemos cuántas escenas hay en Build Settings
     int totalScenes = SceneManager.sceneCountInBuildSettings;
