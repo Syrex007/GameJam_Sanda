@@ -18,6 +18,8 @@ public class ChangeToMenu : MonoBehaviour
         SoundFXManager.instance.StopSoundByName("Tema2");
         SoundFXManager.instance.StopSoundByName("TemaMenu");
 
+        GameManager.instance.goalReached = false;
+        SoundFXManager.instance.StopAllSounds();
         SceneManager.LoadScene(0);
     }
 }
