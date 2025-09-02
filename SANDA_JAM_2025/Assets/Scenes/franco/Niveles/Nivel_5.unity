@@ -7344,7 +7344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f28cd1da6511f0468f69cc7ed3ad188, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 6
+  levelIndex: 5
   transitionCanvas: {fileID: 605922982}
   itemManager: {fileID: 183067159}
   requiredHoldTime: 1

@@ -16614,6 +16614,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 06d13c38693e45d4bad15f8a25585dfd, type: 3}
   - {fileID: 8300000, guid: 7fc5a28770183dc4d9ecb6f3db0b38f3, type: 3}
   - {fileID: 8300000, guid: 821c3ca28674fa84c9bcc8f1a41fbbf7, type: 3}
+  - {fileID: 8300000, guid: 73b4a42a3bf341a49acbcbd86c0cfc72, type: 3}
+  - {fileID: 8300000, guid: 73b4a42a3bf341a49acbcbd86c0cfc72, type: 3}
+  mixerMusic: {fileID: 0}
+  mixerSFX: {fileID: 0}
 --- !u!4 &1360209118
 Transform:
   m_ObjectHideFlags: 0

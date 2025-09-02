@@ -177,20 +177,21 @@ public class LevelManager : MonoBehaviour
     // Obtenemos cuántas escenas hay en Build Settings
     int totalScenes = SceneManager.sceneCountInBuildSettings;
 
-    // Verificamos si hay un nivel siguiente disponible
-    if (currentIndex + 1 < totalScenes)
-    {
-        // Cargar siguiente nivel
-        SceneManager.LoadScene(currentIndex + 1);
+        // Verificamos si hay un nivel siguiente disponible
+        if (currentIndex + 1 < totalScenes)
+        {
+            // Cargar siguiente nivel
+            SceneManager.LoadScene(currentIndex + 1);
+            SoundFXManager.instance.StopAllSounds();
     }
-    else
-    {
-        // Si estamos en el último nivel, mostramos mensaje y no hacemos nada más
-        Debug.Log("¡Felicidades! Has completado todos los niveles.");
-        
-        // Opcional: podrías reiniciar desde la primera escena
-        // SceneManager.LoadScene(0);
-    }
+        else
+        {
+            // Si estamos en el último nivel, mostramos mensaje y no hacemos nada más
+            Debug.Log("¡Felicidades! Has completado todos los niveles.");
+
+            // Opcional: podrías reiniciar desde la primera escena
+            // SceneManager.LoadScene(0);
+        }
     }
     private int CalculateStarRating()
     {

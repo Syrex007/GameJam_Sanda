@@ -36,10 +36,10 @@ EditorBuildSettings:
     path: Assets/Scenes/franco/Niveles/Nivel_8.unity
     guid: 35c1ac5cce182db48bd1446842a775ac
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_9.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_10.unity
     guid: 49592acf29df8df4994cc6a626a71a9d
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_10.unity
+    path: Assets/Scenes/franco/Niveles/Nivel_9.unity
     guid: 52a6ddf2c371e174d93cdf4f01cea4e8
   - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_11.unity
