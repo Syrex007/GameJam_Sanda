@@ -45,16 +45,16 @@ EditorBuildSettings:
     path: Assets/Scenes/bnyhamin/Credits.unity
     guid: bad0dcfafbef86442a00e8efb1179e09
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_10.unity
+    path: Assets/Scenes/franco/Niveles/MNivel_10_OLD.unity
     guid: a564be16c46c56a4c9265da75b96d883
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_11.unity
+    path: Assets/Scenes/franco/Niveles/MNivel_11_OLD.unity
     guid: 15b9303be97aac14a89f51d5ae1edf2f
   - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_12.unity
     guid: 35a8cd77ad65d1846ab4dd2f366139a3
   - enabled: 1
-    path: Assets/Scenes/franco/Niveles/Nivel_13.unity
+    path: Assets/Scenes/franco/Niveles/MNivel_13_OLD.unity
     guid: 055034bcd8702bf49bb33d74d5b21958
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
