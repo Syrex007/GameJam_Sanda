@@ -5483,6 +5483,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 506b00b319b94ab428d20fb428e39675, type: 3}
   - {fileID: 8300000, guid: 032bb39b682867d40998131bbfd3d2d7, type: 3}
   - {fileID: 8300000, guid: 73b4a42a3bf341a49acbcbd86c0cfc72, type: 3}
+  mixerMusic: {fileID: 0}
+  mixerSFX: {fileID: 0}
 --- !u!4 &234514155
 Transform:
   m_ObjectHideFlags: 0
@@ -8508,9 +8510,6 @@ MonoBehaviour:
   - {fileID: 552132795}
   timeText: {fileID: 1642227266}
   startPosY: 1000
-  oneStarSfx: StarSfx1
-  twoStarSfx: StarSfx2
-  threeStarSfx: StarSfx3
 --- !u!1 &811619703
 GameObject:
   m_ObjectHideFlags: 0
@@ -11777,7 +11776,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -12
   m_Sprite: {fileID: -4593405665845378869, guid: 770df635d5265344ab9405545461b7f4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6156863}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12870,7 +12869,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 0.92941177}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78039217}
   m_Origin: {x: -5, y: -3, z: 0}
   m_Size: {x: 9, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
