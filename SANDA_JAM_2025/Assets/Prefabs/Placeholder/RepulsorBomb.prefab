@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.15972686, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.78431374, g: 0.6431373, b: 0.21960784, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -630,7 +630,6 @@ GameObject:
   - component: {fileID: 7595772359486783333}
   - component: {fileID: 4279755090544858759}
   - component: {fileID: 2946458684632389009}
-  - component: {fileID: 2236575500956283484}
   m_Layer: 0
   m_Name: RepulsorBomb
   m_TagString: Untagged
@@ -735,7 +734,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -5212062790743896344, guid: db1481f647751784dbc3f69deca53671, type: 3}
+  m_Sprite: {fileID: 1983178612528072193, guid: 113bb313dbfc5794696ac84537a56a91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -819,19 +818,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &2236575500956283484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8694148226940804890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4311f9dd26f5d494cafed6579876ab2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 180
 --- !u!1001 &5216437063568244709
 PrefabInstance:
   m_ObjectHideFlags: 0

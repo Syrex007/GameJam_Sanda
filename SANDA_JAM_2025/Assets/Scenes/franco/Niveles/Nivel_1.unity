@@ -304,8 +304,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minAngularSpeed: -180
   maxAngularSpeed: 180
-  winZone: {fileID: 1360322206}
   hamsterAnimator: {fileID: 15513948}
+  idleAnimation: Idle
+  rightUpAnimation: RightUp
+  rightDownAnimation: RightDown
+  leftUpAnimation: LeftUp
+  leftDownAnimation: LeftDown
+  movementThreshold: 1.5
+  winZone: {fileID: 1360322206}
 --- !u!95 &15513948
 Animator:
   serializedVersion: 7
@@ -8480,7 +8486,7 @@ Transform:
   m_GameObject: {fileID: 838533837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.06, y: 0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10140,7 +10146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7384555871364008335, guid: 0575a3e830f77dc49950eaac3097e9f4, type: 3}
+  m_Sprite: {fileID: -1958109714, guid: 113bb313dbfc5794696ac84537a56a91, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
