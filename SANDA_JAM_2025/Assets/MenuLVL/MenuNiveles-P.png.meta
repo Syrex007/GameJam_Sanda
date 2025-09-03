@@ -238,7 +238,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -252,7 +252,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1822,7 +1822,75 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MenuNiveles-P_0: 4903678576056882069
+      MenuNiveles-P_1: 4276961436902532098
+      MenuNiveles-P_10: -5798753264603714877
+      MenuNiveles-P_11: -5222778279373552026
+      MenuNiveles-P_12: 565179701467580293
+      MenuNiveles-P_13: -8545433305932966105
+      MenuNiveles-P_14: 4478704947651580968
+      MenuNiveles-P_15: 89250599669408019
+      MenuNiveles-P_16: -982877948316342309
+      MenuNiveles-P_17: -7761087877126983805
+      MenuNiveles-P_18: -7404540748874254818
+      MenuNiveles-P_19: 4711251055208524580
+      MenuNiveles-P_2: 8176011359189111267
+      MenuNiveles-P_20: -3435068965682217259
+      MenuNiveles-P_21: -8813372932480491104
+      MenuNiveles-P_22: 1968762189163312921
+      MenuNiveles-P_23: -6176215892566695336
+      MenuNiveles-P_24: 3962648173616925029
+      MenuNiveles-P_25: -3044332748055812733
+      MenuNiveles-P_26: -5957799441563094406
+      MenuNiveles-P_27: -6237839064760882294
+      MenuNiveles-P_28: 5285584747830578580
+      MenuNiveles-P_29: 8731027189784163324
+      MenuNiveles-P_3: -1366633343740732781
+      MenuNiveles-P_30: -7980119196560905303
+      MenuNiveles-P_31: 1044619624021222202
+      MenuNiveles-P_32: 3814976136709086261
+      MenuNiveles-P_33: 6474695894030319174
+      MenuNiveles-P_34: -6990456494858535471
+      MenuNiveles-P_35: -4486733117680009521
+      MenuNiveles-P_36: -5910279618742448595
+      MenuNiveles-P_37: 2781085329483923523
+      MenuNiveles-P_38: 4299253717840273631
+      MenuNiveles-P_39: 8526384184520504965
+      MenuNiveles-P_4: -659851238523663749
+      MenuNiveles-P_40: 327966129773783372
+      MenuNiveles-P_41: 5745381902315611164
+      MenuNiveles-P_42: -8407925548026380874
+      MenuNiveles-P_43: -6293097726297811831
+      MenuNiveles-P_44: -4146601012200516733
+      MenuNiveles-P_45: -146856920366516535
+      MenuNiveles-P_46: -4603128305281174855
+      MenuNiveles-P_47: 6446173974992427987
+      MenuNiveles-P_48: -7244758541732916618
+      MenuNiveles-P_49: 8485473963330683835
+      MenuNiveles-P_5: 197956849747117516
+      MenuNiveles-P_50: 3639303410789609033
+      MenuNiveles-P_51: 3030377843979729651
+      MenuNiveles-P_52: 834520780399915990
+      MenuNiveles-P_53: -2850518162016092436
+      MenuNiveles-P_54: -604258834646848625
+      MenuNiveles-P_55: 4632718215224588132
+      MenuNiveles-P_56: -8877930682285526773
+      MenuNiveles-P_57: -1726916781238654879
+      MenuNiveles-P_58: -4046386153325885935
+      MenuNiveles-P_59: 7046264942657285455
+      MenuNiveles-P_6: 6461573367390182015
+      MenuNiveles-P_60: -5255441132976156986
+      MenuNiveles-P_61: 2273614411257134928
+      MenuNiveles-P_62: -3604530459865304326
+      MenuNiveles-P_63: -2551138107100831073
+      MenuNiveles-P_64: 902430389250589783
+      MenuNiveles-P_65: -4505176100763097687
+      MenuNiveles-P_66: 5196835816091071116
+      MenuNiveles-P_67: -5840561166420465388
+      MenuNiveles-P_7: 6877719205338983551
+      MenuNiveles-P_8: 2589074123899717479
+      MenuNiveles-P_9: 1814844035986848897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
