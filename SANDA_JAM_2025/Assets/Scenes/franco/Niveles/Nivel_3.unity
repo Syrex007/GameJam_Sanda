@@ -12238,7 +12238,7 @@ MonoBehaviour:
   soundFXClips:
   - {fileID: 8300000, guid: d3c7d1c8cd91d654691e932038648d13, type: 3}
   - {fileID: 8300000, guid: d1778557ae0a7674f8b684f0ae38b22c, type: 3}
-  - {fileID: 8300000, guid: 6b992a6a8e183d7468c9563f81f21c55, type: 3}
+  - {fileID: 8300000, guid: 5fb103ac7daa9994f92775e3ca2c47cb, type: 3}
   - {fileID: 8300000, guid: 4e18ed36a897d734b919404522976dd2, type: 3}
   - {fileID: 8300000, guid: 5c499c4ff7196ea489ef190191853be3, type: 3}
   - {fileID: 8300000, guid: 70fb6303c0816384097f08804724332c, type: 3}
@@ -14493,7 +14493,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 77.94006, y: -79.19998}
+  m_AnchoredPosition: {x: 77.94008, y: -79.19998}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673100995

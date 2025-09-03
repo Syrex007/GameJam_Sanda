@@ -20,7 +20,6 @@ public class Items_ActiveBar : MonoBehaviour
         if (onHampster && (selectableItem.currentQuantity == selectableItem.startQuantity))
         {
             activeBarSlider.gameObject.SetActive(false);
-            print("sigma");
         }
         else
         {
