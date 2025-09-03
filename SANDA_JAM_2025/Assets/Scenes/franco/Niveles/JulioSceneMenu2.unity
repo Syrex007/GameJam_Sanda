@@ -7331,7 +7331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.209999, y: 0.9500084}
+  m_AnchoredPosition: {x: 3.209999, y: 0.9500122}
   m_SizeDelta: {x: -6.420008, y: 1.8999795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585883891
@@ -7853,7 +7853,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.209999, y: 1.8650093}
+  m_AnchoredPosition: {x: 3.209999, y: 1.8650208}
   m_SizeDelta: {x: -6.420008, y: 3.7299793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611552517
@@ -16618,7 +16618,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 06d13c38693e45d4bad15f8a25585dfd, type: 3}
   - {fileID: 8300000, guid: 7fc5a28770183dc4d9ecb6f3db0b38f3, type: 3}
   - {fileID: 8300000, guid: 821c3ca28674fa84c9bcc8f1a41fbbf7, type: 3}
-  - {fileID: 8300000, guid: 73b4a42a3bf341a49acbcbd86c0cfc72, type: 3}
   - {fileID: 8300000, guid: 73b4a42a3bf341a49acbcbd86c0cfc72, type: 3}
   mixerMusic: {fileID: 0}
   mixerSFX: {fileID: 0}
