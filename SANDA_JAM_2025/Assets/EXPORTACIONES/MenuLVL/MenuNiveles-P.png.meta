@@ -1,0 +1,1830 @@
+fileFormatVersion: 2
+guid: d05882f6b884b364082284f2813937bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4903678576056882069
+    second: MenuNiveles-P_0
+  - first:
+      213: 4276961436902532098
+    second: MenuNiveles-P_1
+  - first:
+      213: 8176011359189111267
+    second: MenuNiveles-P_2
+  - first:
+      213: -1366633343740732781
+    second: MenuNiveles-P_3
+  - first:
+      213: -659851238523663749
+    second: MenuNiveles-P_4
+  - first:
+      213: 197956849747117516
+    second: MenuNiveles-P_5
+  - first:
+      213: 6461573367390182015
+    second: MenuNiveles-P_6
+  - first:
+      213: 6877719205338983551
+    second: MenuNiveles-P_7
+  - first:
+      213: 2589074123899717479
+    second: MenuNiveles-P_8
+  - first:
+      213: 1814844035986848897
+    second: MenuNiveles-P_9
+  - first:
+      213: -5798753264603714877
+    second: MenuNiveles-P_10
+  - first:
+      213: -5222778279373552026
+    second: MenuNiveles-P_11
+  - first:
+      213: 565179701467580293
+    second: MenuNiveles-P_12
+  - first:
+      213: -8545433305932966105
+    second: MenuNiveles-P_13
+  - first:
+      213: 4478704947651580968
+    second: MenuNiveles-P_14
+  - first:
+      213: 89250599669408019
+    second: MenuNiveles-P_15
+  - first:
+      213: -982877948316342309
+    second: MenuNiveles-P_16
+  - first:
+      213: -7761087877126983805
+    second: MenuNiveles-P_17
+  - first:
+      213: -7404540748874254818
+    second: MenuNiveles-P_18
+  - first:
+      213: 4711251055208524580
+    second: MenuNiveles-P_19
+  - first:
+      213: -3435068965682217259
+    second: MenuNiveles-P_20
+  - first:
+      213: -8813372932480491104
+    second: MenuNiveles-P_21
+  - first:
+      213: 1968762189163312921
+    second: MenuNiveles-P_22
+  - first:
+      213: -6176215892566695336
+    second: MenuNiveles-P_23
+  - first:
+      213: 3962648173616925029
+    second: MenuNiveles-P_24
+  - first:
+      213: -3044332748055812733
+    second: MenuNiveles-P_25
+  - first:
+      213: -5957799441563094406
+    second: MenuNiveles-P_26
+  - first:
+      213: -6237839064760882294
+    second: MenuNiveles-P_27
+  - first:
+      213: 5285584747830578580
+    second: MenuNiveles-P_28
+  - first:
+      213: 8731027189784163324
+    second: MenuNiveles-P_29
+  - first:
+      213: -7980119196560905303
+    second: MenuNiveles-P_30
+  - first:
+      213: 1044619624021222202
+    second: MenuNiveles-P_31
+  - first:
+      213: 3814976136709086261
+    second: MenuNiveles-P_32
+  - first:
+      213: 6474695894030319174
+    second: MenuNiveles-P_33
+  - first:
+      213: -6990456494858535471
+    second: MenuNiveles-P_34
+  - first:
+      213: -4486733117680009521
+    second: MenuNiveles-P_35
+  - first:
+      213: -5910279618742448595
+    second: MenuNiveles-P_36
+  - first:
+      213: 2781085329483923523
+    second: MenuNiveles-P_37
+  - first:
+      213: 4299253717840273631
+    second: MenuNiveles-P_38
+  - first:
+      213: 8526384184520504965
+    second: MenuNiveles-P_39
+  - first:
+      213: 327966129773783372
+    second: MenuNiveles-P_40
+  - first:
+      213: 5745381902315611164
+    second: MenuNiveles-P_41
+  - first:
+      213: -8407925548026380874
+    second: MenuNiveles-P_42
+  - first:
+      213: -6293097726297811831
+    second: MenuNiveles-P_43
+  - first:
+      213: -4146601012200516733
+    second: MenuNiveles-P_44
+  - first:
+      213: -146856920366516535
+    second: MenuNiveles-P_45
+  - first:
+      213: -4603128305281174855
+    second: MenuNiveles-P_46
+  - first:
+      213: 6446173974992427987
+    second: MenuNiveles-P_47
+  - first:
+      213: -7244758541732916618
+    second: MenuNiveles-P_48
+  - first:
+      213: 8485473963330683835
+    second: MenuNiveles-P_49
+  - first:
+      213: 3639303410789609033
+    second: MenuNiveles-P_50
+  - first:
+      213: 3030377843979729651
+    second: MenuNiveles-P_51
+  - first:
+      213: 834520780399915990
+    second: MenuNiveles-P_52
+  - first:
+      213: -2850518162016092436
+    second: MenuNiveles-P_53
+  - first:
+      213: -604258834646848625
+    second: MenuNiveles-P_54
+  - first:
+      213: 4632718215224588132
+    second: MenuNiveles-P_55
+  - first:
+      213: -8877930682285526773
+    second: MenuNiveles-P_56
+  - first:
+      213: -1726916781238654879
+    second: MenuNiveles-P_57
+  - first:
+      213: -4046386153325885935
+    second: MenuNiveles-P_58
+  - first:
+      213: 7046264942657285455
+    second: MenuNiveles-P_59
+  - first:
+      213: -5255441132976156986
+    second: MenuNiveles-P_60
+  - first:
+      213: 2273614411257134928
+    second: MenuNiveles-P_61
+  - first:
+      213: -3604530459865304326
+    second: MenuNiveles-P_62
+  - first:
+      213: -2551138107100831073
+    second: MenuNiveles-P_63
+  - first:
+      213: 902430389250589783
+    second: MenuNiveles-P_64
+  - first:
+      213: -4505176100763097687
+    second: MenuNiveles-P_65
+  - first:
+      213: 5196835816091071116
+    second: MenuNiveles-P_66
+  - first:
+      213: -5840561166420465388
+    second: MenuNiveles-P_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MenuNiveles-P_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 239
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59350922fad5d0440800000000000000
+      internalID: 4903678576056882069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 239
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204ae9c34c1da5b30800000000000000
+      internalID: 4276961436902532098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 239
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e196084307077170800000000000000
+      internalID: 8176011359189111267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 239
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a1120f63eb80de0800000000000000
+      internalID: -1366633343740732781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 239
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a023b6bccb7d6f0800000000000000
+      internalID: -659851238523663749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 239
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5480eb4b84fb200800000000000000
+      internalID: 197956849747117516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 239
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9a652ebe1ca950800000000000000
+      internalID: 6461573367390182015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 239
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cac137d21927f50800000000000000
+      internalID: 6877719205338983551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 217
+        width: 138
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767c23cb23d3ee320800000000000000
+      internalID: 2589074123899717479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 216
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c7bb7090f9f2910800000000000000
+      internalID: 1814844035986848897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 216
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caa82301a0b68fa0800000000000000
+      internalID: -5798753264603714877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 194
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666405d83d6f487b0800000000000000
+      internalID: -5222778279373552026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 194
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5878c3ca1fbe7d700800000000000000
+      internalID: 565179701467580293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 194
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727d2141fa5886980800000000000000
+      internalID: -8545433305932966105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 194
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8249e82bb6e872e30800000000000000
+      internalID: 4478704947651580968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_15
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 194
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311294192f41d3100800000000000000
+      internalID: 89250599669408019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 194
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd72a09a6bd1c52f0800000000000000
+      internalID: -982877948316342309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 173
+        width: 138
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f614d12b31b4490800000000000000
+      internalID: -7761087877126983805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 162
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16f17a7b69cd3990800000000000000
+      internalID: -7404540748874254818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 162
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b63699fd9b16140800000000000000
+      internalID: 4711251055208524580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 162
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5defa89b9fe2450d0800000000000000
+      internalID: -3435068965682217259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1257e530c90b580800000000000000
+      internalID: -8813372932480491104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917bc44b7c2725b10800000000000000
+      internalID: 1968762189163312921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852a0736e5ca94aa0800000000000000
+      internalID: -6176215892566695336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 162
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5698946d4872ef630800000000000000
+      internalID: 3962648173616925029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 162
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3856b06ce7b50c5d0800000000000000
+      internalID: -3044332748055812733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a727c9249f4a15da0800000000000000
+      internalID: -5957799441563094406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b6fda8b6ebe69a0800000000000000
+      internalID: -6237839064760882294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_28
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 162
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d0aace25b2a5940800000000000000
+      internalID: 5285584747830578580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 162
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3bc5b58f6da2970800000000000000
+      internalID: 8731027189784163324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_30
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 162
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab26b70fdbe04190800000000000000
+      internalID: -7980119196560905303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_31
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 162
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33ef2f630c3f7e00800000000000000
+      internalID: 1044619624021222202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_32
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 117
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c132f659481f430800000000000000
+      internalID: 3814976136709086261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 117
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e7b587c9dbad950800000000000000
+      internalID: 6474695894030319174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 117
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd722edad8ecfe90800000000000000
+      internalID: -6990456494858535471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_35
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 137
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fceb3be400cebb1c0800000000000000
+      internalID: -4486733117680009521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_36
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 124
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e00a130087afda0800000000000000
+      internalID: -5910279618742448595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_37
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 137
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34080f15f56689620800000000000000
+      internalID: 2781085329483923523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_38
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 124
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0a52b5a740aab30800000000000000
+      internalID: 4299253717840273631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 137
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5867ad8bd3dc35670800000000000000
+      internalID: 8526384184520504965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_40
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 124
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49a687157b2d8400800000000000000
+      internalID: 327966129773783372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 124
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14ea7a5662bbbf40800000000000000
+      internalID: 5745381902315611164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 137
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdb4fbd24c015b80800000000000000
+      internalID: -8407925548026380874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_43
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 124
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984533fc5fc6aa8a0800000000000000
+      internalID: -6293097726297811831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_44
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 137
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383538a59505476c0800000000000000
+      internalID: -4146601012200516733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 130
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6feb4b86246fdf0800000000000000
+      internalID: -146856920366516535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 21
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b27b2cd1376e10c0800000000000000
+      internalID: -4603128305281174855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_47
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 65
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db9ac3b319657950800000000000000
+      internalID: 6446173974992427987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 65
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672588c9d72757b90800000000000000
+      internalID: -7244758541732916618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_49
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 89
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3c6279c9572c570800000000000000
+      internalID: 8485473963330683835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_50
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 89
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e6bf59b27618230800000000000000
+      internalID: 3639303410789609033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_51
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 69
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa30ade7901e0a20800000000000000
+      internalID: 3030377843979729651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_52
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 69
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d33b617a30d49b00800000000000000
+      internalID: 834520780399915990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_53
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 33
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee3b3795dce078d0800000000000000
+      internalID: -2850518162016092436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_54
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 33
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bab789acd3d97f0800000000000000
+      internalID: -604258834646848625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_55
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 33
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46771faeba8ba4040800000000000000
+      internalID: 4632718215224588132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_56
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 34
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0174dde4114bc480800000000000000
+      internalID: -8877930682285526773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_57
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 34
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168eb994652c808e0800000000000000
+      internalID: -1726916781238654879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_58
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 6
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11683f27b3958d7c0800000000000000
+      internalID: -4046386153325885935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_59
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d2064f1ac59c160800000000000000
+      internalID: 7046264942657285455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_60
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cecaf2522ce017b0800000000000000
+      internalID: -5255441132976156986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 6
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fb03bc2408d8f10800000000000000
+      internalID: 2273614411257134928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_62
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af237a5f4a22afdc0800000000000000
+      internalID: -3604530459865304326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_63
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92ea497869889cd0800000000000000
+      internalID: -2551138107100831073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_64
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7548cc168a3168c00800000000000000
+      internalID: 902430389250589783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_65
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5af6fa4366a71c0800000000000000
+      internalID: -4505176100763097687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_66
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82b22604aede1840800000000000000
+      internalID: 5196835816091071116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuNiveles-P_67
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 6
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4192192509822fea0800000000000000
+      internalID: -5840561166420465388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

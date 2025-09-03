@@ -6448,7 +6448,7 @@ MonoBehaviour:
   timerText: {fileID: 1365929976}
   elapsedTime: 0
   currentStars: 0
-  timeStarsThreshold: 30
+  timeStarsThreshold: 15
   objectStarsThreshold: 1
   endResultsUI: {fileID: 806140404}
   starTimeText: {fileID: 926244617}

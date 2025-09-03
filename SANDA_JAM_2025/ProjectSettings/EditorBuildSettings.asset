@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Julio/JulioSceneMenu2.unity
+    path: Assets/Scenes/franco/Niveles/JulioSceneMenu2.unity
     guid: 859a878f8a87c09468c6d3c79a8b72d2
   - enabled: 1
     path: Assets/Scenes/franco/Niveles/Nivel_0.unity
