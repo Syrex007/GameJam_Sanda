@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HOLO-P_0: -263670397443927446
+      HOLO-P_1: 4425578474469388640
+      HOLO-P_2: 1687893710565416258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

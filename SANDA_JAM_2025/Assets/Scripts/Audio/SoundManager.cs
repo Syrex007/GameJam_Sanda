@@ -31,6 +31,9 @@ public class SoundFXManager : MonoBehaviour
             // Create a parent object for all audio sources
             soundParent = new GameObject("SoundFX_Pool").transform;
             soundParent.SetParent(transform);
+            AudioMixer mixer = Resources.Load<AudioMixer>("Sounds/Mixer");
+            mixerMusic = mixer.FindMatchingGroups("Master/Song")[0];
+            mixerSFX = mixer.FindMatchingGroups("Master/SFX")[0];
         }
         else
         {
@@ -202,7 +205,7 @@ public class SoundFXManager : MonoBehaviour
         for (int i = sources.Count - 1; i >= 0; i--)
         {
             AudioSource source = sources[i];
-            if (source != null && source.gameObject)
+            if (source != null && source.gameObject && source.outputAudioMixerGroup.name == "SFX")
             {
                 source.Stop();
                 source.loop = false;
@@ -223,5 +226,50 @@ public class SoundFXManager : MonoBehaviour
     // Aseguramos que no quede nada sonando
     activeSources.Clear();
 }
+
+    public void StopAllSoundsMusicEffect()
+    {
+        print("Entra a stopear todo");
+
+        foreach (var kvp in activeSources)
+        {
+            print("z1");
+            string clipName = kvp.Key;
+            List<AudioSource> sources = kvp.Value;
+            
+            for (int i = sources.Count - 1; i >= 0; i--)
+            {
+                print("z2");
+                AudioSource source = sources[i];
+                if (source != null && source.gameObject)
+                {
+                    print("z3");
+                    print($"Deteniendo {source.clip?.name}");
+
+                    //  Detenemos la musica correctamente
+                    source.loop = false;
+                    source.Stop();
+                    source.clip = null; //  Liberamos el clip para que Unity no intente seguirlo
+
+                    // Desactivamos el objeto del pool
+                    source.gameObject.SetActive(false);
+
+                    // Volvemos a ponerlo en el pool
+                    if (!audioSourcePool.ContainsKey(clipName))
+                        audioSourcePool[clipName] = new Queue<AudioSource>();
+
+                    audioSourcePool[clipName].Enqueue(source);
+                }
+            }
+            print("z4");
+            // Limpiamos la lista de fuentes activas
+            sources.Clear();
+        }
+        print("z5");
+        // Por ultimo, vaciamos el diccionario de activos
+        activeSources.Clear();
+
+        print("StopAllSoundsMusicEffect COMPLETADO");
+    }
 
 }

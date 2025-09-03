@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      menuPrincipal-G_0: -1385663589135724038
+      menuPrincipal-G_1: -3467898400112883946
+      menuPrincipal-G_10: -4192647539180216515
+      menuPrincipal-G_11: 1829645797376921985
+      menuPrincipal-G_2: -6589896991180843724
+      menuPrincipal-G_3: 5987458938201006529
+      menuPrincipal-G_4: 6903278663366953765
+      menuPrincipal-G_5: 3183432075727602937
+      menuPrincipal-G_6: -7782421015857325554
+      menuPrincipal-G_7: 7142305385529123174
+      menuPrincipal-G_8: 814066751724577795
+      menuPrincipal-G_9: -6268624818572629193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
