@@ -54,7 +54,7 @@ EditorBuildSettings:
     path: Assets/Scenes/franco/Niveles/Nivel_14.unity
     guid: f317757b2e1e064439fe66a8c13a8608
   - enabled: 1
-    path: Assets/Scenes/bnyhamin/Credits.unity
+    path: Assets/Scenes/franco/Niveles/Credits.unity
     guid: bad0dcfafbef86442a00e8efb1179e09
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
