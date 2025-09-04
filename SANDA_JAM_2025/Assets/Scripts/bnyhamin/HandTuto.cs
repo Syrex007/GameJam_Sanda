@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class HandTuto : MonoBehaviour
 {
-    [Tooltip("Objeto que seleccionará inicialmente.")]
+    [Tooltip("Objeto que seleccionarï¿½ inicialmente.")]
     public GameObject goItem;
 
     [Tooltip("Objeto que se desea instanciar al llegar al punto final.")]
@@ -15,12 +15,12 @@ public class HandTuto : MonoBehaviour
     [Tooltip("Objeto siguiente que se desea activar al llegar al punto final.")]
     public GameObject goNextHandActive = null;    
 
-    [Header("Configuración")]
-    [Tooltip("Desde la animación activará este check cuando pase por el pull.")]
+    [Header("Configuraciï¿½n")]
+    [Tooltip("Desde la animaciï¿½n activarï¿½ este check cuando pase por el pull.")]
     public bool checkAnimItem = false;
-    [Tooltip("Desde la animación activará este check cuando llegue al punto final para que el player se acerque.")]
+    [Tooltip("Desde la animaciï¿½n activarï¿½ este check cuando llegue al punto final para que el player se acerque.")]
     public bool checkMovePlayer = false;
-    [Tooltip("Desde la animación activará este check para indicar que ya terminó y podría pasar al siguiente HandTuto.")]
+    [Tooltip("Desde la animaciï¿½n activarï¿½ este check para indicar que ya terminï¿½ y podrï¿½a pasar al siguiente HandTuto.")]
     public bool checkInactive = false;
     private int countSelectItem = 0;
     private int countMoveItem = 0;
@@ -74,15 +74,20 @@ public class HandTuto : MonoBehaviour
 
     }
 
-    public void instanciarItem()
+public void instanciarItem()
+{
+    if (countMoveItem == 0)
     {
-        if (countMoveItem == 0) {
-            GameObject goInst = Instantiate(goPrefabItemInstanciar, transform);
-            if (changeRadius > 0) goInst.GetComponent<Attractor>().Radius = changeRadius;
-        } 
-        checkMovePlayer = false;
+        GameObject goInst = Instantiate(goPrefabItemInstanciar, transform);
 
+        if (changeRadius > 0)
+            goInst.GetComponent<Attractor>().Radius = changeRadius;
+
+        countMoveItem++; // Aumentamos aquÃ­ para marcar que ya se instanciÃ³
+        checkMovePlayer = false; // Desactivamos la bandera aquÃ­
     }
+}
+
 
     public void callwaitInactive() => StartCoroutine(waitInactive());
 
