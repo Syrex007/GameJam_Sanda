@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Attractor : MonoBehaviour
 {
- public LayerMask AttractionLayer;
+    public LayerMask AttractionLayer;
 
     [SerializeField] private float destroyTimer;
     public float gravity = 10;
     [SerializeField] public float Radius = 10;
+
     public List<Collider2D> AttractedObjects = new List<Collider2D>();
     [HideInInspector] public Transform attractorTransform;
-    
+
     void Awake()
     {
         attractorTransform = GetComponent<Transform>();
