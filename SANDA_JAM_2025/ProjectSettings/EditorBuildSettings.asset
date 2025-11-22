@@ -75,6 +75,9 @@ EditorBuildSettings:
     path: Assets/Scenes/franco/Niveles/Nivel_21.unity
     guid: 070018a541f8c1644a2edb44cc1b8030
   - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_22.unity
+    guid: 5ac9c48c743ecc0498ebea7d2f7b19f8
+  - enabled: 1
     path: Assets/Scenes/franco/Niveles/ENDING.unity
     guid: bf76d0a313aaef04f8aa93f93a2b0d69
   - enabled: 1

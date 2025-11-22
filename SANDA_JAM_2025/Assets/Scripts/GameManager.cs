@@ -82,6 +82,7 @@ public class GameManager : MonoBehaviour
             case "Nivel_19":
             case "Nivel_20":
             case "Nivel_21":
+            case "Nivel_22":
 
                 soundToPlay = "Tema2";
                 break;

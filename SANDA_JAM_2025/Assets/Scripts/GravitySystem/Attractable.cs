@@ -8,8 +8,8 @@ public class Attractable : MonoBehaviour
     [SerializeField] private float gravityStrength = 100;
 
     [Header("Freeze Settings")]
-    public float slowDuration = 0.4f;     // Tiempo de desaceleración
-    public float freezeDelay = 0.1f;      // Delay antes del freeze real
+    public float slowDuration = 0.1f;     // Tiempo de desaceleración
+    public float freezeDelay = 0.01f;      // Delay antes del freeze real
 
     Transform m_transform;
     Collider2D m_collider;
@@ -119,7 +119,7 @@ void FreezeVisual()
     m_transform.localScale = originalScale;
 
     m_transform.DOShakeScale(
-        0.30f,   // más largo
+        0.05f,   // más largo
         0.45f,   // más fuerte
         18,      // más vibración
         100f,    // más snappy
