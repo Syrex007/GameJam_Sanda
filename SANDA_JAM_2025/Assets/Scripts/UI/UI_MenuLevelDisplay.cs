@@ -29,7 +29,7 @@ public class UI_MenuLevelDisplay : MonoBehaviour
     public void goToLevel()
     {
         SoundFXManager.instance.StopSoundByName("TemaMenu");
-         if (levelIndex > 21)
+         if (levelIndex > 22)
         {
             SoundFXManager.instance.StopAllSounds();
             SceneManager.LoadScene(0);
