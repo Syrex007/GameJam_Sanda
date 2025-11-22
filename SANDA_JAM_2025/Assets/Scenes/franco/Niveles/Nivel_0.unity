@@ -336,6 +336,8 @@ MonoBehaviour:
   rotateToCenter: 0
   currentAttractor: {fileID: 0}
   gravityStrength: 40
+  slowDuration: 0.4
+  freezeDelay: 0.1
 --- !u!212 &15513944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17575,7 +17577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 77.94, y: -78.93637}
+  m_AnchoredPosition: {x: 77.94002, y: -78.93637}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673100995

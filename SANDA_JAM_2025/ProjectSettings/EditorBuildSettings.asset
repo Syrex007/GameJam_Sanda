@@ -54,6 +54,27 @@ EditorBuildSettings:
     path: Assets/Scenes/franco/Niveles/Nivel_14.unity
     guid: f317757b2e1e064439fe66a8c13a8608
   - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_15.unity
+    guid: a8337d497d2d7fb49b58d3cf5fbf66ea
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_16.unity
+    guid: c6aef5af35823094b94051b74bc9b618
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_17.unity
+    guid: 88f0105b21bf75f4f8daa86163ed4a0d
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_18.unity
+    guid: 2a76e4a23cb7600498e3b89312fa3288
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_19.unity
+    guid: 772d88637a3eeba4e938038b2d023b72
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_20.unity
+    guid: f923d575cc0ec144482527279dc13728
+  - enabled: 1
+    path: Assets/Scenes/franco/Niveles/Nivel_21.unity
+    guid: 070018a541f8c1644a2edb44cc1b8030
+  - enabled: 1
     path: Assets/Scenes/franco/Niveles/ENDING.unity
     guid: bf76d0a313aaef04f8aa93f93a2b0d69
   - enabled: 1
