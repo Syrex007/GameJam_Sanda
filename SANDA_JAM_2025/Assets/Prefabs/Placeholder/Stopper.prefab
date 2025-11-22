@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7830189, g: 0.6426205, b: 0.21791564, a: 1}
+  m_Color: {r: 0.23701738, g: 0.8301887, b: 0.17621933, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -675,7 +675,6 @@ MonoBehaviour:
   Radius: 1.5
   AttractedObjects: []
   attractorTransform: {fileID: 0}
-  currentState: 1
 --- !u!114 &2970046223785319015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,7 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravitatorLifeTime: {fileID: 7983683805607096377}
-  objectToSpawnOnDestroy: {fileID: 2020974951102664298, guid: 790fc6e8baa322545b7738d2791c2030, type: 3}
+  objectToSpawnOnDestroy: {fileID: 2020974951102664298, guid: 93a3452ccf46a9e45a47eab56e026b64, type: 3}
   loopSoundName: Extinguisher2
 --- !u!212 &7595772359486783333
 SpriteRenderer:
@@ -735,8 +734,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 8353612301321204559, guid: 97627353679d05f489d11178a5047b92, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.96559095, a: 1}
+  m_Sprite: {fileID: -3701574946568495390, guid: f10f76f5adf800f4e85088799301f160, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -845,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431360620913975402, guid: 76a2dbb190e0be0489d7579e67fdd122, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 3.09
+      value: 0.98
       objectReference: {fileID: 0}
     - target: {fileID: 4431360620913975402, guid: 76a2dbb190e0be0489d7579e67fdd122, type: 3}
       propertyPath: InitialModule.startLifetime.scalar

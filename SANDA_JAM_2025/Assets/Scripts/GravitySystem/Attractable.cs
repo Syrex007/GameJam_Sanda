@@ -7,6 +7,10 @@ public class Attractable : MonoBehaviour
     [SerializeField] private Attractor currentAttractor;
     [SerializeField] private float gravityStrength = 100;
 
+    [Header("Freeze Settings")]
+    public float slowDuration = 0.4f;     // Tiempo de desaceleración
+    public float freezeDelay = 0.1f;      // Delay antes del freeze real
+
     Transform m_transform;
     Collider2D m_collider;
     Rigidbody2D m_rigdibody;
@@ -66,36 +70,67 @@ public class Attractable : MonoBehaviour
         m_rigdibody.AddForce(attractionDir * -attractorObj.gravity * gravityStrength * Time.fixedDeltaTime);
     }
 
-    void FreezeObject()
+void FreezeObject()
+{
+    if (isFrozen) return;
+
+    isFrozen = true;
+
+    DOTween.Kill(m_rigdibody);
+
+    Vector2 initialVel = m_rigdibody.velocity;
+
+    // Desaceleración más notoria
+    DOTween.To(() => initialVel, v =>
     {
+        initialVel = v;
+        m_rigdibody.velocity = v;
+    },
+    Vector2.zero,
+    slowDuration)
+    .SetEase(Ease.OutCubic)   // Más brusco al final
+    .OnComplete(() =>
+    {
+        // Mantiene el movimiento pero lo obliga a apagarse totalmente
         m_rigdibody.velocity = Vector2.zero;
         m_rigdibody.angularVelocity = 0f;
         m_rigdibody.gravityScale = 0;
+    });
 
-        if (!isFrozen)
-        {
-            isFrozen = true;
-            FreezeVisual();
-        }
-    }
+    // Hacer el visual MÁS fuerte
+    FreezeVisual();
+}
 
-    void FreezeVisual()
+
+    System.Collections.IEnumerator FinalFreeze()
     {
-        m_transform.DOKill();
+        yield return new WaitForSeconds(freezeDelay);
 
-        m_transform.localScale = originalScale;
+        m_rigdibody.velocity = Vector2.zero;
+        m_rigdibody.angularVelocity = 0f;
 
-        m_transform.DOShakeScale(
-            0.25f,
-            0.35f,
-            15,
-            90f,
-            false
-        ).OnComplete(() =>
-        {
-            m_transform.localScale = originalScale;
-        });
+        // Freeze real
+        m_rigdibody.bodyType = RigidbodyType2D.Static;
     }
+
+void FreezeVisual()
+{
+    m_transform.DOKill();
+    m_transform.localScale = originalScale;
+
+    m_transform.DOShakeScale(
+        0.30f,   // más largo
+        0.45f,   // más fuerte
+        18,      // más vibración
+        100f,    // más snappy
+        false
+    )
+    .OnComplete(() =>
+    {
+        m_transform.localScale = originalScale;
+    });
+}
+
 
     void RotateToCenter()
     {

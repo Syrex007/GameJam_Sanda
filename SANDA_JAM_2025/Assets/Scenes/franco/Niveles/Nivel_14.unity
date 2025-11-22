@@ -183,6 +183,8 @@ MonoBehaviour:
   rotateToCenter: 0
   currentAttractor: {fileID: 0}
   gravityStrength: 40
+  slowDuration: 0.4
+  freezeDelay: 0.1
 --- !u!212 &15513944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7877,7 +7879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &635589229
 Transform:
   m_ObjectHideFlags: 0
@@ -7952,21 +7954,7 @@ CompositeCollider2D:
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
-  m_ColliderPaths:
-  - m_Collider: {fileID: 635589233}
-    m_ColliderPaths:
-    - - X: -45000000
-        Y: -14375000
-      - X: -45000000
-        Y: -625000
-      - X: -45625000
-        Y: 0
-      - X: -110000000
-        Y: 0
-      - X: -110000000
-        Y: -15000000
-      - X: -45625000
-        Y: -15000000
+  m_ColliderPaths: []
   m_CompositePaths:
     m_Paths:
     - - {x: -4.562511, y: -1.5}
@@ -19063,6 +19051,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicUI
       objectReference: {fileID: 0}
+    - target: {fileID: 1238644608255219610, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2082810636379196036, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3214632239270123185, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502448915851580189, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5248245367070213427, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582735250345277538, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960900130029446794, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
+      objectReference: {fileID: 0}
     - target: {fileID: 8655920707684068612, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -19142,6 +19158,10 @@ PrefabInstance:
     - target: {fileID: 8655920707684068612, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814303230900534065, guid: c5bd62a2c7ae57b47a90ee18a5a5d3ee, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 339.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

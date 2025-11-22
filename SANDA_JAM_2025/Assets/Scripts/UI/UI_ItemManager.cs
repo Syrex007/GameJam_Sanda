@@ -180,7 +180,7 @@ public class UI_ItemManager : MonoBehaviour, IPointerClickHandler
             UI_SelectableItem[] allItems = FindObjectsOfType<UI_SelectableItem>();
             foreach (var item in allItems)
             {
-                if (item.itemIndex == selectedItemIndex)
+                if (item.itemIndex == selectedItemIndex && !GameManager.instance.goalReached)
                 {
                     
                     if (item.currentQuantity > 0)

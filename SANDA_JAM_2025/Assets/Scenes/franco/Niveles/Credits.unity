@@ -318,6 +318,8 @@ MonoBehaviour:
   rotateToCenter: 0
   currentAttractor: {fileID: 0}
   gravityStrength: 40
+  slowDuration: 0.4
+  freezeDelay: 0.1
 --- !u!212 &15513944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17782,7 +17784,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 22
-  m_Sprite: {fileID: 21300000, guid: 4c1aadf6b6470534d8dfc30a8dac8ba9, type: 3}
+  m_Sprite: {fileID: 7865979444064246294, guid: fc4f1e0d53577a84aa3a6b5ad8c29fe5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17802,7 +17804,7 @@ Transform:
   m_GameObject: {fileID: 1634471680}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.05, y: 4.52, z: 0}
+  m_LocalPosition: {x: 3.2, y: 5.1, z: 0}
   m_LocalScale: {x: 0.92929, y: 0.8828255, z: 0.92929}
   m_ConstrainProportionsScale: 0
   m_Children: []

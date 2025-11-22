@@ -67,14 +67,22 @@ public class GameManager : MonoBehaviour
             case "Nivel_9":
             case "Nivel_10":
             case "Nivel_11":
+                        case "Nivel_12":
+            case "Nivel_13":
                 soundToPlay = "Tema1";
                 break;
 
             // Niveles del 8 al 14
 
-            case "Nivel_12":
-            case "Nivel_13":
             case "Nivel_14":
+            case "Nivel_15":
+            case "Nivel_16":
+            case "Nivel_17":
+            case "Nivel_18":
+            case "Nivel_19":
+            case "Nivel_20":
+            case "Nivel_21":
+
                 soundToPlay = "Tema2";
                 break;
         }
