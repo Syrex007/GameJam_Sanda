@@ -1,5 +1,8 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class HandTuto : MonoBehaviour
 {
@@ -22,12 +25,15 @@ public class HandTuto : MonoBehaviour
     public bool checkMovePlayer = false;
     [Tooltip("Desde la animaci�n activar� este check para indicar que ya termin� y podr�a pasar al siguiente HandTuto.")]
     public bool checkInactive = false;
+    [Tooltip("Desde la animacion dispara al metodo setActiveOtherGOActiveEventTrigger() para activar los eventos de otro gameobject.")]
+    public bool checkGOActiveEventTrigge = false;
     private int countSelectItem = 0;
     private int countMoveItem = 0;
     private int countInactive = 0;
+    private int countActiveEventTrigger = 0;
 
     public int changeRadius;
-
+    public GameObject[] othersGOActiveEventTrigger;
 
     // Update is called once per frame
     void Update()
@@ -51,6 +57,12 @@ public class HandTuto : MonoBehaviour
         {
             StartCoroutine(waitInactive());
             countInactive++;
+        }
+
+        if (checkGOActiveEventTrigge)
+        {
+            setActiveOtherGOActiveEventTrigger();
+            countActiveEventTrigger++;
         }
 
     }
@@ -112,6 +124,68 @@ public void instanciarItem()
         GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().simulated = state;
     }
 
-   
+    public void InstanciarItemUI_SinParametros()
+    {
+        if (countMoveItem != 0)
+            return;
+
+        // 1. Obtener la posición del mouse EN PANTALLA
+        Vector3 mousePos = Input.mousePosition;
+
+        // 2. Convertir a coordenadas del mundo 2D
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+
+        // MUY IMPORTANTE: en 2D, el z debe ser 0
+        worldPos.z = 0;
+
+        // 3. Instanciar en esa posición
+        GameObject goInst = Instantiate(goPrefabItemInstanciar, worldPos, Quaternion.identity);
+
+        // (Opcional) Ajustes extra
+        if (changeRadius > 0)
+            goInst.GetComponent<Attractor>().Radius = changeRadius;
+
+        countMoveItem++;
+        checkMovePlayer = false;
+    }
+
+
+
+    /*public void InstanciarItemUI_SinParametros()
+    {
+        // Tomar datos del último pointer del sistema
+        PointerEventData pointerData = new PointerEventData(EventSystem.current);
+        pointerData.position = Input.mousePosition; // funciona en PC y móvil
+
+        Ray ray = Camera.main.ScreenPointToRay(pointerData.position);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            if (countMoveItem == 0)
+            {
+                GameObject goInst = Instantiate(goPrefabItemInstanciar, hit.point, Quaternion.identity);
+
+                if (changeRadius > 0)
+                    goInst.GetComponent<Attractor>().Radius = changeRadius;
+
+                countMoveItem++;
+                checkMovePlayer = false;
+            }
+        }
+    }*/
+
+    public void setActiveOtherGOActiveEventTrigger()
+    {
+        foreach(GameObject go in othersGOActiveEventTrigger)
+        {
+            go.GetComponent<Image>().raycastTarget = true;
+            go.GetComponent<EventTrigger>().enabled = true;
+        }
+
+        
+    }
+
+
 
 }
